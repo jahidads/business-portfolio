@@ -10,24 +10,156 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
-    header { background: #1a3046; color: rgb(255, 251, 251); padding: 20px 0; }
-    footer { background: #333; color: white; padding: 20px 0; text-align: center; }
-    .section-title { margin-bottom: 40px; }
-    #about { background-color: #d3d3d3; text-emphasis-color: white; }
-    #portfolio{background-color: rgb(206, 201, 201);}
-  </style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-  <style>
+    header {
+      background: #1a3046;
+      color: rgb(255, 251, 251);
+      padding: 20px 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .section-title {
+      margin-bottom: 40px;
+    }
+
+    #about {
+      background-color: #d3d3d3;
+    }
+
+    #portfolio {
+      background-color: rgb(206, 201, 201);
+    }
+
     .social-icon img {
       transition: transform 0.3s, filter 0.3s;
     }
+
     .social-icon:hover img {
       transform: scale(1.2);
       filter: brightness(1.2);
     }
+
+    /* Home Section Styles */
+    #home h1 {
+      color: rgb(0, 0, 0);
+    }
+
+    #home p {
+      color: green;
+    }
+
+    /* Services Section Styles */
+    .service-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .service-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Hover Effect for Portfolio Images */
+    .portfolio-img-wrapper {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .portfolio-img-wrapper img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .portfolio-img-wrapper:hover img {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Enhanced Style for Portfolio Scroll Wrapper */
+    .portfolio-scroll-wrapper {
+      overflow-x: auto; /* Enables horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile devices */
+      padding: 10px; /* Adds padding around the scrollable area */
+      background-color: #f0f0f0; /* Light background color for better contrast */
+      border-radius: 8px; /* Rounded corners for a modern look */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    .portfolio-scroll-wrapper .row {
+      display: flex;
+      flex-wrap: nowrap; /* Prevents wrapping for horizontal scrolling */
+      gap: 15px; /* Adds spacing between items */
+    }
+
+    .portfolio-scroll-wrapper::-webkit-scrollbar {
+      height: 10px; /* Height of the scrollbar */
+    }
+
+    .portfolio-scroll-wrapper::-webkit-scrollbar-thumb {
+      background: linear-gradient(90deg, #1a3046, #4a90e2); /* Gradient color for the scrollbar thumb */
+      border-radius: 5px; /* Rounded scrollbar thumb */
+    }
+
+    .portfolio-scroll-wrapper::-webkit-scrollbar-track {
+      background: #e0e0e0; /* Light background color for the scrollbar track */
+      border-radius: 5px; /* Rounded scrollbar track */
+    }
+
+    .portfolio-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(90deg, #4a90e2, #1a3046); /* Hover effect for the scrollbar thumb */
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 1.5rem;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .navbar-nav .nav-item {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .section-title {
+        font-size: 1.2rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      header p {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Desktop Layout */
+    @media (min-width: 768px) {
+      .portfolio-scroll-wrapper .row {
+        flex-wrap: wrap; /* Switch to grid layout on larger screens */
+      }
+    }
   </style>
-  
-  
 </head>
 <body>
 
@@ -50,241 +182,251 @@
   </div>
 </nav>
 
-<!-- Home Section -->
-<header id="home" class="text-center">
-    <div class="container">
-      <h1>Welcome to BizName</h1>
-      <p>Your Trusted Business Partner
+<!-- Fullscreen Video Section -->
+<section id="fullscreen-video" style="position: relative; height: 50vh; overflow: hidden; margin: 0; padding: 0;">
+  <!-- Background Video -->
+  <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    <source src="https://videos.pexels.com/video-files/3125448/3125448-sd_640_360_25fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-        At BizName, we are dedicated to supporting your goals with reliable solutions, professional service, 
-        and unwavering commitment. Whether you're just starting out or scaling new heights, we stand beside you every step of the way 
-        — as a partner you can count on.</p>
-      <iframe width="750" height="422" src="https://cdn.pixabay.com/video/2023/11/28/191126-889267474_large.mp4" title="Business Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </header>
+  <!-- Overlay Text -->
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; z-index: 1;">
+    <h1 style="color: rgb(255, 255, 255);">Welcome to BizName</h1>
+    <p style="color: rgb(5, 255, 5);">Your Trusted Business Partner</p>
+  </div>
+</section>
 
 <!-- About Section -->
-<section id="about" class="py-4">
-    <div class="container">
-      <h2 class="text-center section-title">About Us</h2>
-      <div class="row">
-        <div class="col-md-20">
-          <p>We are a dynamic company committed to delivering exceptional value through a relentless pursuit of excellence. 
-            Founded on the principles of quality, innovation, and integrity, we strive to exceed expectations in everything we do.
-
-            Our team is composed of passionate professionals who bring together diverse skills and experience to serve our clients with dedication and care. 
-            Whether we are developing solutions, providing services, or building relationships, we believe that success is rooted in doing things the right way
-             — with honesty, respect, and a long-term vision.
-            
-            At the heart of our work is a strong desire to make a meaningful impact. We continuously adapt to evolving industry trends while staying true to time-tested values.
-             Our mission is not just to succeed, but to grow responsibly, serve our community, and leave a legacy of trust.
-            
-            We invite you to be a part of our journey — where tradition meets innovation, and every step is guided by purpose.</p>
-        </div>
-        <div class="col-md-50 text-center">
-          <iframe width="750" height="422" src="https://cdn.pixabay.com/video/2021/08/30/86911-594991432_large.mp4" title="Business Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+<section id="about" class="py-5" style="background-color: #f8f9fa; position: relative;">
+  <div class="container">
+    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">About Us</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: justify; margin-bottom: 20px;">
+          We are a dynamic company committed to delivering exceptional value through a relentless pursuit of excellence.
+          Founded on the principles of quality, innovation, and integrity, we strive to exceed expectations in everything we do.
+        </p>
+        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: justify; margin-bottom: 20px;">
+          Our team is composed of passionate professionals who bring together diverse skills and experience to serve our clients with dedication and care.
+          Whether we are developing solutions, providing services, or building relationships, we believe that success is rooted in doing things the right way
+          — with honesty, respect, and a long-term vision.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <video class="w-100 rounded shadow" autoplay muted loop>
+          <source src="https://marketplace.canva.com/EAE6WRUvOQk/3/0/800w/canva-it-consultant-freelance-website-in-navy-blue-and-teal-bold-tech-style-FnL6SEFwRK4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
-  </section>
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
+          At the heart of our work is a strong desire to make a meaningful impact. We continuously adapt to evolving industry trends while staying true to time-tested values.
+          Our mission is not just to succeed, but to grow responsibly, serve our community, and leave a legacy of trust.
+        </p>
+        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
+          We invite you to be a part of our journey — where tradition meets innovation, and every step is guided by purpose.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Services Section -->
-<section id="services" class="py-4 bg-light">
-    <div class="container">
-      <h2 class="text-center section-title">Our Services</h2>
-      <div class="row text-center">
-
-        <div class="col-md-4">
-          <a href="https://jahidads.github.io/Developer-portfolio/#home" target="_blank">
-            <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?t=st=1746081830~exp=1746085430~hmac=5e3c835f22e53b541d120d4e44eb72c3600149f4cfc243ac14c8a9a56b103550&w=826" 
-                 alt="Programmer at Work" 
-                 style="max-width:100%; height:auto;">
-          </a>          
-          <h4>Web Development</h4>
-          <p>Custom websites built with modern technologies and responsive design.</p>
+<section id="services" class="py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Our Services</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
+          <img src="https://www.fifteendesign.co.uk/wp-content/uploads/2022/12/Will-web-development-die-in-10-years-1.jpg" alt="Web Development" class="img-fluid mb-3 rounded">
+          <h4 style="color: #1a3046; font-weight: bold;">Web Development</h4>
+          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Custom websites built with modern technologies and responsive design.</p>
         </div>
-
-        <div class="col-md-4">
-          <a href="https://jahidads.github.io/my-traditional-website/" target="_blank">
-            <img src="https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp" 
-                 alt="Programmer at Work" 
-                 style="max-width:100%; height:auto;">
-          </a>          
-          <h4>SEO optimization</h4>
-          <p>This leads to more visitors to the website and increases sales.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
+          <img src="https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp" alt="SEO Optimization" class="img-fluid mb-3 rounded">
+          <h4 style="color: #1a3046; font-weight: bold;">SEO Optimization</h4>
+          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Increase website traffic and boost sales with effective SEO strategies.</p>
         </div>
-      
-        <div class="col-md-4">
-          <a href="https://www.fmcibd.com/?utm_source=chatgpt.com" target="_blank">
-          <img src="https://i.vimeocdn.com/video/1317899763-45200f5a952a9dbf16046d30d3d24e042c10deb85f8e8c52503fb504e9d44b23-d_1280x720?r=pad"
-              alt="Programmer at Work" 
-              style="max-width:100%; height:auto;">
-          </a> 
-          <h4>Consultancy</h4>
-          <p>Get expert advice and solutions tailored to your business goals.</p>
-        </div>
-
-        <div class="col-md-4">
-          <a href="https://www.biman-airlines.com/" target="_blank">
-          <img src="https://www.shutterstock.com/image-photo/kiev-ukraine-june-13-2019-260nw-1423550501.jpg"
-               alt="Programmer at Work" 
-               style="max-width:100%; height:auto;">
-          </a>     
-          <h4>Biman Bangladesh Airlines</h4>
-          <p>The national flag carrier offering both domestic and international flights.</p>
-        </div>
-
-        <div class="col-md-4">
-          <a href="https://sharetrip.net/" target="_blank">
-          <img src="https://skytripair.com/images/SKYTRIPAIRH1FondBLEU4.png"
-               alt="Programmer at Work" 
-               style="max-width:100%; height:auto;">
-          </a>     
-          <h4>ShareTrip</h4>
-          <p>Bangladesh's first and leading online travel aggregator, offering flights, hotels, tour packages, and visa services.</p>
-        </div>
-
-        <div class="col-md-4">
-          <a href="https://www.shohoz.com/" target="_blank">
-          <img src="https://tfe-bd.sgp1.cdn.digitaloceanspaces.com/uploads/1566126489.png"
-               alt="Programmer at Work" 
-               style="max-width:100%; height:auto;">
-          </a>
-          <h4>Shohoz</h4>
-          <p>A comprehensive platform for booking bus, train, launch, and event tickets across Bangladesh.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
+          <img src="https://i.vimeocdn.com/video/1317899763-45200f5a952a9dbf16046d30d3d24e042c10deb85f8e8c52503fb504e9d44b23-d_1280x720?r=pad" alt="Consultancy" class="img-fluid mb-3 rounded">
+          <h4 style="color: #1a3046; font-weight: bold;">Consultancy</h4>
+          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Get expert advice and solutions tailored to your business goals.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-4">
+<section id="portfolio" class="py-5" style="background-color: #f8f9fa;">
   <div class="container">
-    <h2 class="text-center section-title">Portfolio</h2>
-    <div class="row">
-
-      <div class="col-md-2">
-        <a href="https://jahidads.github.io/Developer-portfolio/#home" target="_blank">
-        <img src="https://img.freepik.com/premium-photo/logo-web-design-is-shown-black-background_939033-77910.jpg?w=826" alt="Project 1" class="img-fluid mb-2">
-        </a>
-        <p>Project 01 - <br>Web Design</p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://jahidads.github.io/my-traditional-website/" target="_blank">
-        <img src="https://img.freepik.com/free-vector/e-commerce-background-design_23-2147650066.jpg?t=st=1746100233~exp=1746103833~hmac=c2f7719b056e48ee4a53c328116925eff9cc6b836fcb4b1e5d93a0810c32f449&w=826" alt="Project 2" class="img-fluid mb-2">
-        </a>
-        <p>Project 02 - <br>E-commerce Site</p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="" target="_blank">
-        <img src="https://img.freepik.com/free-vector/creative-computer-logo-template_23-2149213537.jpg?t=st=1746101094~exp=1746104694~hmac=b3f72a5977ab642d20bee0a6b964bd878371b29755c7193895662e34c3126d31&w=826" alt="Project 3" class="img-fluid mb-2">
-        </a>
-        <p>Project 03 - <br>portfolio Website</p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://www.google.com/maps/place/jahidads/@25.0576574,89.0901594,17z/data=!3m1!4b1!4m6!3m5!1s0x39fc8d007d74c671:0x6e27870ee3260c1d!8m2!3d25.0576574!4d89.0901594!16s%2Fg%2F11vyr2610b?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-        <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/portfolio-icon-computer-8dErDW6-600.jpg" alt="Project 4" class="img-fluid mb-2">
-        </a>
-        <p>Project 04 - <br>business portfolio</p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://jahidads.github.io/my-first-website/#" target="_blank">
-        <img src="https://img.freepik.com/free-vector/gradient-antivirus-editable-slogan-logo_53876-113811.jpg?t=st=1746102132~exp=1746105732~hmac=72b987d1a1c33dc1fd7b4dbf2aeac3fa84dcdb41184e6944cb3159979d82f607&w=826" alt="Project 5" class="img-fluid mb-2">
-        </a>
-        <p>Project 05 - <br>Syber security </p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://www.youtube.com/channel/UCRWMWwq1-PMkDunPDrNjOiA" target="_blank">
-        <img src="https://img.freepik.com/premium-vector/cooperate-marketing-business-company-vector-logo-design-with-color-option_765114-108.jpg?w=826" alt="Project 6" class="img-fluid mb-2">
-        </a>
-        <p>Project 06 - <br>Marketing portfolio</p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://about.google/" target="_blank">
-        <img src="https://img.freepik.com/free-psd/google-icon-isolated-3d-render-illustration_47987-9777.jpg?semt=ais_hybrid&w=740" alt="Project 7" class="img-fluid mb-2">
-        </a>
-        <p>Project 07 - Google<br></p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://www.meta.com/about/?srsltid=AfmBOorGtADgswnucTYXTQ6hzod0ytdZ_26kSgCewlTI4RQK_4GcVauK" target="_blank">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Project 8" class="img-fluid mb-2">
-        </a>
-        <p>Project 08 - Facebook<br></p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://www.amazon.in/" target="_blank">
-        <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935559/acastro_STK103__02.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100" alt="Project 9" class="img-fluid mb-2">
-        </a>
-        <p>Project 09 - Amazon<br></p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://support.google.com/youtube/?hl=en#topic=9257498" target="_blank">
-        <img src="https://miro.medium.com/v2/resize:fit:1400/1*whq2w6YJL-JbWna_u5uJaQ.jpeg" alt="Project 10" class="img-fluid mb-2">
-        </a>
-        <p>Project 10 - YouTube<br></p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank">
-        <img src="https://cdn.storifyme.xyz/accounts/cashify-in-0561312/assets/f-bd4716300a6c80b04a47a48e598548c9-48831674122268443.jpeg?t=1674125418000" alt="Project 11" class="img-fluid mb-2">
-        </a>
-        <p>Project 11 - wikipedia<br></p>
-      </div>
-
-      <div class="col-md-2">
-        <a href="https://t.me/jahidads12" target="_blank">
-        <img src="https://imgcdn.stablediffusionweb.com/2024/11/14/238b92ec-a501-4be0-9ee5-4ddfcef8c984.jpg" alt="Project 12" class="img-fluid mb-2">
-        </a>
-        <p>Project 12 - Airdrop<br></p>
+    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Portfolio</h2>
+    <div class="portfolio-scroll-wrapper">
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://jahidads.github.io/Developer-portfolio/#home" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://img.freepik.com/premium-photo/logo-web-design-is-shown-black-background_939033-77910.jpg?w=826" alt="Project 1" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 01 - Web Design</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://jahidads.github.io/my-traditional-website/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://images-platform.99static.com//_-efnTC02kmxV6Dicoa4bjSMSjs=/516x3011:1255x3750/fit-in/500x500/99designs-contests-attachments/66/66702/attachment_66702512" alt="Project 2" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 02 - Traditional-website</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://img.freepik.com/free-vector/creative-computer-logo-template_23-2149213537.jpg?t=st=1746101094~exp=1746104694~hmac=b3f72a5977ab642d20bee0a6b964bd878371b29755c7193895662e34c3126d31&w=826" alt="Project 3" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 03 - Portfolio Website</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://www.google.com/maps/place/jahidads/@25.0576574,89.0901594,17z/data=!3m1!4b1!4m6!3m5!1s0x39fc8d007d74c671:0x6e27870ee3260c1d!8m2!3d25.0576574!4d89.0901594!16s%2Fg%2F11vyr2610b?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/portfolio-icon-computer-8dErDW6-600.jpg" alt="Project 4" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 04 - Business Portfolio</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://jahidads.github.io/Cyber-Security/#" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg" alt="Project 5" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 05 - Syber security </p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://www.youtube.com/channel/UCRWMWwq1-PMkDunPDrNjOiA" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://img.freepik.com/premium-vector/cooperate-marketing-business-company-vector-logo-design-with-color-option_765114-108.jpg?w=826" alt="Project 6" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 06 - Marketing portfolio</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://about.google/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://img.freepik.com/free-psd/google-icon-isolated-3d-render-illustration_47987-9777.jpg?semt=ais_hybrid&w=740" alt="Project 7" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 07 - Google</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://www.facebook.com/jahidads1" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Project 8" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 08 - Facebook</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://www.amazon.in/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935559/acastro_STK103__02.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100" alt="Project 9" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 09 - Amazon</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://support.google.com/youtube/?hl=en#topic=9257498" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://miro.medium.com/v2/resize:fit:1400/1*whq2w6YJL-JbWna_u5uJaQ.jpeg" alt="Project 10" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 10 - YouTube</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://cdn.storifyme.xyz/accounts/cashify-in-0561312/assets/f-bd4716300a6c80b04a47a48e598548c9-48831674122268443.jpeg?t=1674125418000" alt="Project 11" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 11 - wikipedia</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="https://t.me/jahidads12" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+            <div class="portfolio-img-wrapper">
+              <img src="https://imgcdn.stablediffusionweb.com/2024/11/14/238b92ec-a501-4be0-9ee5-4ddfcef8c984.jpg" alt="Project 12" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+            </div>
+            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 12 - Airdrop</p>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-5 bg-light">
+<section id="contact" class="py-5" style="background-color: #f8f9fa;">
   <div class="container">
-    <h2 class="text-center section-title">Contact Us</h2>
-    <form>
+    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Contact Us</h2>
+    <form style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
       <div class="row">
         <div class="col-md-6">
-          <input type="text" class="form-control mb-3" placeholder="Your Name">
+          <input type="text" class="form-control mb-3" placeholder="Your Name" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;">
         </div>
         <div class="col-md-6">
-          <input type="email" class="form-control mb-3" placeholder="Your Email">
+          <input type="email" class="form-control mb-3" placeholder="Your Email" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;">
         </div>
       </div>
-      <textarea class="form-control mb-3" rows="5" placeholder="Your Message"></textarea>
+      <textarea class="form-control mb-3" rows="5" placeholder="Your Message" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;"></textarea>
       <div class="text-center">
-        <button class="btn btn-primary">Send Message</button>
+        <button class="btn btn-primary" style="background-color: #1a3046; border: none; padding: 12px 25px; font-size: 1rem; border-radius: 8px; transition: background-color 0.3s;">Send Message</button>
       </div>
     </form>
-    <div class="text-center"></div>
-    <div class="d-flex justify-content-center gap-2 flex-wrap"></div>
-    <p>
-      <a href="https://www.facebook.com/profile.php?id=61575663205505" target="_blank" class="me-2 social-icon"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
-      <a href="https://www.instagram.com/jahidhasan2.0ff" target="_blank" class="me-2 social-icon"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram"></a>
-      <a href="https://twitter.com/jahidhasan_tw" target="_blank" class="me-2 social-icon"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter"></a>
-      <a href="mailto:jahid4hasan.2000@gmail.com" class="me-2 social-icon"><img src="https://cdn-icons-png.flaticon.com/24/732/732200.png" alt="Email"></a>
-    </p>
-      <iframe src="https://maps.google.com/maps?q=jahidads&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- Map Section -->
+<section id="map" class="py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Our Location</h2>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <iframe src="https://maps.google.com/maps?q=jahidads&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+          width="100%" height="300" frameborder="0" style="border: 0; border-radius: 15px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);" allowfullscreen>
+        </iframe>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Footer -->
-<footer>
-  <p>&copy; 2025 BizName. All rights reserved.</p>
-</footer>
+<section id="footer" style="background-color: #1a3046; color: white; padding: 20px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p style="margin: 0; font-size: 0.9rem;">&copy; 2024 BizName. All rights reserved.</p>
+        <p style="margin: 10px 0; font-size: 0.9rem;">Follow us on:
+          <a href="https://www.facebook.com/jahidads1" target="_blank" class="me-2 social-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" style="width: 20px; height: 20px; transition: transform 0.3s;">
+          </a>
+          <a href="https://twitter.com/jahidhasan_tw" target="_blank" class="me-2 social-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter" style="width: 20px; height: 20px; transition: transform 0.3s;">
+          </a>
+          <a href="https://www.instagram.com/jahidhasan2.0ff" target="_blank" class="me-2 social-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="width: 20px; height: 20px; transition: transform 0.3s;">
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
