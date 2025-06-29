@@ -7,7 +7,7 @@
   <meta name="keywords" content="Business, Portfolio, Services, Contact">
   <meta name="author" content="Your Company Name">
   <title>Business Portfolio</title>
-  <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/022/418/064/small/project-task-management-and-effective-time-planning-tools-project-development-icon-3d-vector-illustration-png.png" type="image/png">
+  <link rel="icon" href="project-task-management-and-effective-time-planning-tools-project-development-icon-3d-vector-illustration-png.webp" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
@@ -168,100 +168,1482 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="https://static.vecteezy.com/system/resources/thumbnails/022/418/064/small/project-task-management-and-effective-time-planning-tools-project-development-icon-3d-vector-illustration-png.png" alt="Logo" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
-      BizName
+      <img src="project-task-management-and-effective-time-planning-tools-project-development-icon-3d-vector-illustration-png.webp" alt="Logo" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+      <span class="animated-brand">BizName</span>
+      <style>
+        .animated-brand {
+          font-weight: bold;
+          font-size: 1.5rem;
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb);
+          background-size: 200% auto;
+          color: #791a1a;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: colorMove 2s linear infinite;
+        }
+        @keyframes colorMove {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+      </style>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      <ul class="navbar-nav ms-auto ms-lg-auto ms-md-auto ms-sm-0 modern-navbar">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+              <path d="M3 12L12 4l9 8" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 21V9h6v12" stroke="#12eb0a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+              <circle cx="12" cy="8" r="4" stroke="#bd08eb" stroke-width="2"/>
+              <path d="M4 20c0-4 4-7 8-7s8 3 8 7" stroke="#1b85ff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+              <rect x="3" y="3" width="7" height="7" rx="2" stroke="#ffb300" stroke-width="2"/>
+              <rect x="14" y="3" width="7" height="7" rx="2" stroke="#12eb0a" stroke-width="2"/>
+              <rect x="14" y="14" width="7" height="7" rx="2" stroke="#1b85ff" stroke-width="2"/>
+              <rect x="3" y="14" width="7" height="7" rx="2" stroke="#bd08eb" stroke-width="2"/>
+            </svg>
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+              <rect x="3" y="7" width="18" height="13" rx="2" stroke="#1b85ff" stroke-width="2"/>
+              <path d="M16 3v4M8 3v4" stroke="#ffb300" stroke-width="2"/>
+            </svg>
+            Portfolio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+              <rect x="3" y="5" width="18" height="14" rx="2" stroke="#12eb0a" stroke-width="2"/>
+              <path d="M3 7l9 6 9-6" stroke="#bd08eb" stroke-width="2"/>
+            </svg>
+            Contact
+          </a>
+        </li>
       </ul>
+      <style>
+        .modern-navbar .nav-link {
+          position: relative;
+          font-weight: 600;
+          font-size: 1.08rem;
+          letter-spacing: 0.5px;
+          color: #fff !important;
+          padding: 8px 18px;
+          margin: 0 4px;
+          border-radius: 8px;
+          transition: 
+        background 0.25s cubic-bezier(.22,1,.36,1),
+        color 0.25s cubic-bezier(.22,1,.36,1),
+        box-shadow 0.25s cubic-bezier(.22,1,.36,1);
+          z-index: 1;
+          overflow: hidden;
+        }
+        .modern-navbar .nav-link::before {
+          content: '';
+          position: absolute;
+          left: 0; top: 0; right: 0; bottom: 0;
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 200% 100%;
+          opacity: 0;
+          border-radius: 8px;
+          z-index: -1;
+          transition: opacity 0.25s, background-position 0.5s;
+        }
+        .modern-navbar .nav-link:hover,
+        .modern-navbar .nav-link.active,
+        .modern-navbar .nav-link:focus {
+          color: #fff !important;
+          background: linear-gradient(90deg, #1b85ff 0%, #bd08eb 100%);
+          box-shadow: 0 4px 16px rgba(26,48,70,0.12);
+        }
+        .modern-navbar .nav-link:hover::before,
+        .modern-navbar .nav-link.active::before,
+        .modern-navbar .nav-link:focus::before {
+          opacity: 0.18;
+          background-position: 100% 0;
+        }
+        /* Removed underline effect */
+        .modern-navbar .nav-link::after {
+          display: none;
+        }
+        @media (max-width: 991.98px) {
+          .modern-navbar .nav-link {
+        margin: 4px 0;
+        padding: 10px 12px;
+        font-size: 1rem;
+          }
+        }
+      </style>
     </div>
+    <style>
+      @media (max-width: 991.98px) {
+        .navbar-nav {
+          margin-left: 0 !important;
+          margin-right: auto !important;
+          text-align: left;
+        }
+        .navbar-nav .nav-item {
+          text-align: center;
+        }
+      }
+    </style>
   </div>
 </nav>
 
 <!-- Fullscreen Video Section -->
-<section id="fullscreen-video" style="position: relative; height: 50vh; overflow: hidden; margin: 0; padding: 0;">
+<section id="fullscreen-video" style="position: relative; height: 90vh; overflow: hidden; margin: 0; padding: 0;">
   <!-- Background Video -->
   <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-    <source src="https://videos.pexels.com/video-files/3125448/3125448-sd_640_360_25fps.mp4" type="video/mp4">
+    <source src="https://cdn.pixabay.com/video/2024/03/15/204306-923909642_tiny.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
   <!-- Overlay Text -->
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; z-index: 1;">
-    <h1 style="color: rgb(255, 255, 255);">Welcome to BizName</h1>
-    <p style="color: rgb(5, 255, 5);">Your Trusted Business Partner</p>
+    <h3 class="slide-in-title">Welcome to BizName</h3>
+    <style>
+      .slide-in-title {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #ff1313, #1bff8d, #dceb08, #ffb300);
+        background-size: 400% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: slideIn 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0s 1, colorMove2 3s linear infinite;
+        opacity: 1;
+        margin-bottom: 0.5rem;
+      }
+      @keyframes slideIn {
+        0% {
+          opacity: 0;
+          transform: translateX(-80px) scale(0.9);
+        }
+        80% {
+          opacity: 1;
+          transform: translateX(10px) scale(1.05);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0) scale(1);
+        }
+      }
+      @keyframes colorMove2 {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+    </style>
+    <p style="color: rgb(240, 236, 32);">Your Trusted Business Partner</p>
   </div>
 </section>
 
 <!-- About Section -->
-<section id="about" class="py-5" style="background-color: #f8f9fa; position: relative;">
-  <div class="container">
-    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">About Us</h2>
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: justify; margin-bottom: 20px;">
-          We are a dynamic company committed to delivering exceptional value through a relentless pursuit of excellence.
-          Founded on the principles of quality, innovation, and integrity, we strive to exceed expectations in everything we do.
-        </p>
-        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: justify; margin-bottom: 20px;">
-          Our team is composed of passionate professionals who bring together diverse skills and experience to serve our clients with dedication and care.
-          Whether we are developing solutions, providing services, or building relationships, we believe that success is rooted in doing things the right way
-          — with honesty, respect, and a long-term vision.
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        <video class="w-100 rounded shadow" autoplay muted loop>
-          <source src="https://marketplace.canva.com/EAE6WRUvOQk/3/0/800w/canva-it-consultant-freelance-website-in-navy-blue-and-teal-bold-tech-style-FnL6SEFwRK4.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
+<section id="about" class="py-5" style="background-color: #ffffff; position: relative; overflow: hidden;">
+  <div class="container position-relative">
+    <div class="about-bg-anim"></div>
+    <div class="about-bg-anim2"></div>
+    <div class="about-floating-icon" title="Excellence">
+      <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2"/>
+        <path d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     </div>
-    <div class="row mt-4">
-      <div class="col-md-12 text-center">
-        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
-          At the heart of our work is a strong desire to make a meaningful impact. We continuously adapt to evolving industry trends while staying true to time-tested values.
-          Our mission is not just to succeed, but to grow responsibly, serve our community, and leave a legacy of trust.
-        </p>
-        <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
-          We invite you to be a part of our journey — where tradition meets innovation, and every step is guided by purpose.
-        </p>
+    <h2 class="text-center section-title animated-underline about-title-glow" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; position: relative; display: block; text-align: center;">
+      <span class="color-animate">About Us</span>
+      <style>
+        .color-animate {
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          animation: colorMove3 2s linear infinite;
+        }
+        @keyframes colorMove3 {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .animated-underline {
+          position: relative;
+          display: inline-block;
+          text-align: center;
+        }
+        .animated-underline::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -8px;
+          width: 100%;
+          height: 5px;
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 300% 100%;
+          border-radius: 3px;
+          animation: underlineMove 2s linear infinite;
+        }
+        @keyframes underlineMove {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .about-bg-anim {
+          position: absolute;
+          top: -60px;
+          left: -80px;
+          width: 320px;
+          height: 320px;
+          background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+          filter: blur(60px);
+          z-index: 0;
+          animation: float1 8s ease-in-out infinite alternate;
+        }
+        .about-bg-anim2 {
+          position: absolute;
+          bottom: -80px;
+          right: -60px;
+          width: 260px;
+          height: 260px;
+          background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+          filter: blur(60px);
+          z-index: 0;
+          animation: float2 10s ease-in-out infinite alternate;
+        }
+        @keyframes float1 {
+          0% { transform: translateY(0) scale(1);}
+          100% { transform: translateY(40px) scale(1.08);}
+        }
+        @keyframes float2 {
+          0% { transform: translateY(0) scale(1);}
+          100% { transform: translateY(-30px) scale(1.04);}
+        }
+        .about-fadein {
+          opacity: 0;
+          transform: translateY(40px) scale(0.98);
+          animation: aboutFadeIn 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards;
+        }
+        .about-fadein.delay-1 { animation-delay: 0.4s; }
+        .about-fadein.delay-2 { animation-delay: 0.7s; }
+        @keyframes aboutFadeIn {
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+        .about-video-anim {
+          padding: 6px;
+          border-radius: 18px;
+          background: linear-gradient(135deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 400% 400%;
+          animation: borderAnim 5s linear infinite;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.12);
+          display: inline-block;
+        }
+        @keyframes borderAnim {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .about-keyword {
+          display: inline-block;
+          background: linear-gradient(90deg, #ffe066, #ffd700, #b2f7ef, #40c9ff, #fbc2eb, #a6c1ee, #c2ffd8, #465e8a, #ffd6e0, #fcb69f, #fff6b7, #f6416c, #cfd9df, #e2ebf0, #b2fefa, #0ed2f7);
+          background-size: 200% 200%;
+          animation: keywordAnim 3s linear infinite alternate;
+          border-radius: 6px;
+          padding: 3px 10px;
+          font-weight: 600;
+          box-shadow: 0 2px 8px rgba(255, 224, 102, 0.10);
+          transition: box-shadow 0.3s, background 0.3s, color 0.3s;
+          border: 1.5px solid #e0e0e0;
+          text-shadow: 0 1px 4px #fffbe6;
+        }
+        .about-keyword:hover {
+          box-shadow: 0 4px 16px #1b85ff33, 0 2px 8px #bd08eb22;
+          background: linear-gradient(90deg, #ffb300, #12eb0a, #1b85ff, #bd08eb, #ffb300);
+          color: #fff !important;
+          border-color: #1b85ff;
+        }
+        @keyframes keywordAnim {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .about-fancy-underline {
+          display: inline-block;
+          position: relative;
+        }
+        .about-fancy-underline::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: -4px;
+          width: 100%;
+          height: 4px;
+          background: linear-gradient(90deg, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 200% 100%;
+          border-radius: 2px;
+          animation: aboutUnderlineAnim 2.5s linear infinite;
+        }
+        @keyframes aboutUnderlineAnim {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .about-video-anim video {
+          border-radius: 12px;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18), 0 2px 8px #1b85ff22;
+          border: 2.5px solid #fff;
+          transition: box-shadow 0.4s, border 0.4s, filter 0.4s;
+          filter: grayscale(10%) brightness(0.98);
+        }
+        .about-video-anim video:hover {
+          box-shadow: 0 16px 48px 0 rgba(31, 38, 135, 0.28), 0 4px 16px #bd08eb33;
+          border: 2.5px solid #1b85ff;
+          filter: grayscale(0%) brightness(1.08);
+        }
+        .about-floating-icon {
+          position: absolute;
+          top: 18px;
+          right: 18px;
+          width: 48px;
+          height: 48px;
+          background: linear-gradient(135deg, #12eb0a 0%, #bd08eb 100%);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 8px rgba(18,235,10,0.12);
+          animation: iconPulse 1.8s infinite alternate;
+          z-index: 2;
+          border: 2px solid #fff;
+        }
+        @keyframes iconPulse {
+          0% { transform: scale(1);}
+          100% { transform: scale(1.15);}
+        }
+        .about-title-glow {
+          text-shadow: 0 0 12px #1b85ff55, 0 2px 8px #bd08eb33, 0 0 24px #ffb30033;
+          border-bottom: 3px solid #1b85ff;
+          padding-bottom: 6px;
+        }
+        .about-glass-card {
+          background: rgba(255,255,255,0.92);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border-radius: 18px;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+          border: 1.5px solid rgba(26,48,70,0.08);
+          padding: 32px 24px;
+          margin-bottom: 24px;
+          transition: box-shadow 0.3s, border 0.3s;
+        }
+        .about-glass-card:hover {
+          box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.18);
+          border: 1.5px solid #1b85ff;
+        }
+        .about-icons-row {
+          display: flex;
+          justify-content: center;
+          gap: 32px;
+          margin: 32px 0 16px 0;
+        }
+        .about-icon-anim {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          background: linear-gradient(135deg, #1b85ff 0%, #bd08eb 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 8px #1b85ff22;
+          animation: aboutIconBounce 1.5s infinite alternate;
+          transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+        }
+        .about-icon-anim:nth-child(2) {
+          background: linear-gradient(135deg, #ffb300 0%, #12eb0a 100%);
+          animation-delay: 0.3s;
+        }
+        .about-icon-anim:nth-child(3) {
+          background: linear-gradient(135deg, #bd08eb 0%, #1b85ff 100%);
+          animation-delay: 0.6s;
+        }
+        .about-icon-anim:hover {
+          background: linear-gradient(135deg, #12eb0a 0%, #ffb300 100%);
+          box-shadow: 0 8px 24px #bd08eb33;
+          transform: scale(1.12) rotate(-3deg);
+        }
+        @keyframes aboutIconBounce {
+          0% { transform: translateY(0);}
+          100% { transform: translateY(-10px);}
+        }
+        #about {
+          border-top: 5px solid;
+          border-image: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a) 1;
+          box-shadow: 0 4px 32px 0 rgba(31, 38, 135, 0.08);
+        }
+        @media (max-width: 991.98px) {
+          .about-video-anim { padding: 2px; border-radius: 10px; }
+          .about-bg-anim, .about-bg-anim2 { display: none; }
+          .about-glass-card { padding: 18px 8px; }
+          .about-icons-row { gap: 18px; }
+        }
+        @media (max-width: 767.98px) {
+          .section-title { font-size: 1.5rem !important; }
+          .about-fadein { font-size: 1rem; }
+          .about-glass-card { padding: 10px 2px; }
+        }
+        @media (max-width: 575.98px) {
+          .section-title { font-size: 1.2rem !important; }
+          .about-fadein { font-size: 0.95rem; }
+          .about-icons-row { gap: 8px; }
+        }
+      </style>
+    </h2>
+    <div class="about-glass-card about-fadein">
+      <div class="about-icons-row">
+        <div class="about-icon-anim" title="Quality">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2"/>
+            <path d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="about-icon-anim" title="Innovation">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <rect x="4" y="4" width="16" height="16" rx="4" stroke="#fff" stroke-width="2"/>
+            <path d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="about-icon-anim" title="Integrity">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <path d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46" stroke="#fff" stroke-width="2" fill="none"/>
+            <circle cx="12" cy="10" r="3" stroke="#fff" stroke-width="2"/>
+          </svg>
+        </div>
+      </div>
+      <p style="font-size: 1.25rem; line-height: 2; color: #222; text-align: center; margin-bottom: 24px; letter-spacing: 0.01em;">
+        We are a dynamic company committed to delivering exceptional value through a relentless pursuit of
+        <span class="about-keyword" style="background: linear-gradient(90deg, #ffe066, #ffd700);">excellence</span>.
+        Founded on the principles of
+        <span class="about-keyword" style="background: linear-gradient(90deg, #b2f7ef, #40c9ff);">quality</span>,
+        <span class="about-keyword" style="background: linear-gradient(90deg, #fbc2eb, #a6c1ee);">innovation</span>, and
+        <span class="about-keyword" style="background: linear-gradient(90deg, #c2ffd8, #465e8a);">integrity</span>,
+        we strive to exceed expectations in everything we do.
+      </p>
+      <p style="font-size: 1.25rem; line-height: 2; color: #222; text-align: center; margin-bottom: 24px; letter-spacing: 0.01em;">
+        Our team is composed of passionate professionals who bring together diverse skills and experience to serve our clients with dedication and care.
+        Whether we are
+        <span class="about-keyword" style="background: linear-gradient(90deg, #ffd6e0, #fcb69f);">developing solutions</span>,
+        providing services, or building relationships, we believe that success is rooted in doing things the
+        <span class="about-keyword" style="background: linear-gradient(90deg, #fff6b7, #f6416c);">right way</span>
+        — with
+        <span class="about-keyword" style="background: linear-gradient(90deg, #cfd9df, #e2ebf0);">honesty</span>,
+        <span class="about-keyword" style="background: linear-gradient(90deg, #fbc2eb, #a6c1ee);">respect</span>, and a
+        <span class="about-keyword" style="background: linear-gradient(90deg, #b2fefa, #0ed2f7);">long-term vision</span>.
+      </p>
+      <!-- More Information Start -->
+      <div style="margin-top:32px;">
+        <h3 style="
+          font-size: 1.3rem;
+          color: #1b85ff;
+          font-weight: bold;
+          margin-bottom: 12px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          animation: whyChooseUsColorMove 2s linear infinite;
+          border-bottom: 3px solid #1b85ff;
+          padding-bottom: 6px;
+          border-radius: 4px;
+          box-shadow: 0 2px 8px #1b85ff22;
+          text-shadow: 0 2px 12px #1b85ff33, 0 1px 4px #bd08eb22;
+          transition: background 0.3s, color 0.3s;
+        ">
+            <span style="display:block; text-align:center;">Why Choose Us?</span>
+        </h3>
+        <style>
+          @keyframes whyChooseUsColorMove {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+        </style>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card h-100 border-0 shadow-sm why-card" style="border-radius:20px;">
+              <div class="card-body d-flex align-items-start gap-3">
+          <span class="about-keyword why-icon" style="background:linear-gradient(90deg,#12eb0a,#1b85ff);">01</span>
+          <div>
+            <strong class="why-title">Client-Centric Approach</strong><br>
+            <span class="why-desc">We listen, understand, and tailor our solutions to your unique needs.</span>
+          </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card h-100 border-0 shadow-sm why-card" style="border-radius:20px;">
+              <div class="card-body d-flex align-items-start gap-3">
+          <span class="about-keyword why-icon" style="background:linear-gradient(90deg,#bd08eb,#ffb300);">02</span>
+          <div>
+            <strong class="why-title">Proven Track Record</strong><br>
+            <span class="why-desc">Our portfolio showcases successful projects across industries.</span>
+          </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card h-100 border-0 shadow-sm why-card" style="border-radius:20px;">
+              <div class="card-body d-flex align-items-start gap-3">
+          <span class="about-keyword why-icon" style="background:linear-gradient(90deg,#ffb300,#12eb0a);">03</span>
+          <div>
+            <strong class="why-title">Continuous Improvement</strong><br>
+            <span class="why-desc">We invest in learning and technology to stay ahead.</span>
+          </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card h-100 border-0 shadow-sm why-card" style="border-radius:20px;">
+              <div class="card-body d-flex align-items-start gap-3">
+          <span class="about-keyword why-icon" style="background:linear-gradient(90deg,#1b85ff,#bd08eb);">04</span>
+          <div>
+            <strong class="why-title">Transparent Communication</strong><br>
+            <span class="why-desc">You’re always informed and involved at every stage.</span>
+          </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card h-100 border-0 shadow-sm why-card" style="border-radius:20px;">
+              <div class="card-body d-flex align-items-start gap-3">
+          <span class="about-keyword why-icon" style="background:linear-gradient(90deg,#fbc2eb,#a6c1ee);">05</span>
+          <div>
+            <strong class="why-title">End-to-End Support</strong><br>
+            <span class="why-desc">From consultation to delivery and beyond, we’re with you.</span>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>
+          .why-card {
+            background: rgba(255,255,255,0.97);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10), 0 2px 12px #1b85ff22;
+            transition: box-shadow 0.3s, transform 0.3s, border 0.3s, background 0.3s;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+          }
+          .why-card:hover {
+            box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.18), 0 4px 16px #bd08eb33;
+            border: 2px solid #1b85ff;
+            background: linear-gradient(135deg, #f8faff 80%, #e6f7ff 100%);
+            transform: translateY(-6px) scale(1.03) rotate(-1deg);
+          }
+          .why-icon {
+            min-width: 48px;
+            min-height: 48px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px #1b85ff22;
+            margin-top: 2px;
+            margin-right: 8px;
+            transition: box-shadow 0.3s, background 0.3s, transform 0.3s;
+            border: 2px solid #fff;
+            animation: whyIconPulse 1.5s infinite alternate;
+          }
+          @keyframes whyIconPulse {
+            0% { transform: scale(1);}
+            100% { transform: scale(1.12);}
+          }
+          .why-title {
+            font-size: 1.12rem;
+            color: #1a3046;
+            letter-spacing: 0.5px;
+            background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: whyTitleColorMove 2s linear infinite;
+            font-weight: 700;
+            margin-bottom: 2px;
+            display: inline-block;
+          }
+          @keyframes whyTitleColorMove {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+          .why-desc {
+            color: #444;
+            font-size: 1.01rem;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+            opacity: 0.92;
+            transition: color 0.3s;
+          }
+          .why-card:hover .why-desc {
+            color: #1b85ff;
+            opacity: 1;
+          }
+          .why-card:hover .why-title {
+            filter: drop-shadow(0 2px 8px #1b85ff33);
+          }
+          .why-card:hover .why-icon {
+            box-shadow: 0 8px 24px #bd08eb33;
+            background: linear-gradient(135deg, #12eb0a 0%, #ffb300 100%);
+            transform: scale(1.15) rotate(-3deg);
+          }
+          @media (max-width: 991.98px) {
+            .why-card { border-radius: 14px; }
+            .why-icon { min-width: 38px; min-height: 38px; font-size: 1.08rem; }
+          }
+          @media (max-width: 767.98px) {
+            .why-card { border-radius: 10px; }
+            .why-title { font-size: 1rem; }
+            .why-desc { font-size: 0.97rem; }
+            .why-icon { min-width: 32px; min-height: 32px; font-size: 0.98rem; }
+          }
+        </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 style="
+          font-size: 1.1rem;
+          color: #1a3046;
+          font-weight: 700;
+          margin-top: 28px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          border-bottom: 3px solid #1b85ff;
+          padding-bottom: 8px;
+          border-radius: 6px;
+          box-shadow: 0 4px 18px #1b85ff44, 0 2px 8px #bd08eb33;
+          text-shadow: 0 2px 8px #1b85ff66, 0 1px 4px #bd08eb44, 0 1px 2px #fff;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif;
+          ">
+            <span style="display:block; text-align:center; font-family:'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif; font-weight:800; font-size:1.15rem; letter-spacing:2px;">
+            Our Vision
+            </span>
+          </h4>
+          <p style="
+            font-size: 1.13rem;
+            color: #444;
+            font-weight: 600;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ffd70022;
+            padding: 8px 0;
+            text-align: center;
+            margin-bottom: 18px;
+          ">
+            To empower businesses and individuals by providing
+            <span style="
+            background: linear-gradient(90deg, #055555, #756716, #107267, #1d6581, #8d1d6d, #1e4992, #c2ffd8, #133b85);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: visionTextAnim 3s linear infinite alternate;
+            font-weight: 700;
+            ">innovative</span>,
+            <span style="
+            background: linear-gradient(90deg, #0c28a3, #77670b, #106e63, #1c6785, #77165c, #184188, #19743a, #164191);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: visionTextAnim 3s linear infinite alternate;
+            font-weight: 700;
+            ">reliable</span>, and
+            <span style="
+            background: linear-gradient(90deg, #7e6914, #0d8517, #0b7e70, #1077a0, #7c0f5d, #123f8d, #238045, #490d72);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: visionTextAnim 3s linear infinite alternate;
+            font-weight: 700;
+            ">sustainable digital solutions</span>
+            that drive growth and create
+            <span style="
+            background: linear-gradient(90deg, #756009, #ff9100, #039281, #0a83b3, #a30777, #1052c5, #0bc24e, #1d59c9);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: visionTextAnim 3s linear infinite alternate;
+            font-weight: 700;
+            ">lasting impact</span>.
+          </p>
+          <style>
+            @keyframes visionTextAnim {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+            }
+          </style>
+          <!-- New Card: Company Highlights -->
+          <div class="card border-0 shadow-sm my-4" style="border-radius:18px; background:linear-gradient(135deg,#f8faff 80%,#e6f7ff 100%); max-width:420px; margin:24px auto;">
+            <div class="card-body text-center">
+            <h5 class="card-title" style="font-weight:700;color:#1a3046; background:linear-gradient(90deg,#12eb0a,#1b85ff,#bd08eb,#ffb300,#12eb0a);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;animation:colorMoveCard2025 2s linear infinite;">
+              Company Highlights
+            </h5>
+            <ul style="list-style:none;padding:0;margin:0;font-size:1.08rem;color:#333;line-height:2;">
+              <li style="margin-bottom:18px; position:relative;">
+              <span style="font-weight:700;color:#1b85ff;font-size:1.18rem;letter-spacing:1px;"></span>
+                <svg width="18" height="18" style="vertical-align:-3px;margin-right:4px;" fill="none" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="#1b85ff" stroke-width="2">
+                  <animate attributeName="stroke-dasharray" values="0,63;63,0;0,63" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <path d="M9 12.75 11.25 15 15 9.75" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2s" repeatCount="indefinite"/>
+                </path>
+                </svg>
+                10+
+              </span>
+              Years of Experience
+              <div style="background:linear-gradient(90deg,#e0e7ef,#f5fcff);height:10px;border-radius:8px;overflow:hidden;margin-top:6px;margin-bottom:10px;box-shadow:0 2px 8px #1b85ff22;">
+                <div style="width:90%;background:linear-gradient(90deg,#1b85ff,#12eb0a,#bd08eb);height:100%;border-radius:8px;transition:width 1s;box-shadow:0 2px 8px #12eb0a33;animation:expBarAnim1 2s cubic-bezier(.22,1,.36,1) forwards;"></div>
+              </div>
+              </li>
+              <li style="margin-bottom:18px; position:relative;">
+              <span style="font-weight:700;color:#bd08eb;font-size:1.18rem;letter-spacing:1px;">
+                <svg width="18" height="18" style="vertical-align:-3px;margin-right:4px;" fill="none" viewBox="0 0 24 24">
+                <rect x="4" y="4" width="16" height="16" rx="4" stroke="#bd08eb" stroke-width="2">
+                  <animate attributeName="stroke-dashoffset" values="32;0;32" dur="2.2s" repeatCount="indefinite"/>
+                </rect>
+                <path d="M9 12.75 11.25 15 15 9.75" stroke="#bd08eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.2s" repeatCount="indefinite"/>
+                </path>
+                </svg>
+                100+
+              </span>
+              Projects Delivered
+              <div style="background:linear-gradient(90deg,#fbc2eb,#e0e7ef);height:10px;border-radius:8px;overflow:hidden;margin-top:6px;margin-bottom:10px;box-shadow:0 2px 8px #bd08eb22;">
+                <div style="width:98%;background:linear-gradient(90deg,#bd08eb,#ffb300,#12eb0a);height:100%;border-radius:8px;transition:width 1s;box-shadow:0 2px 8px #ffb30033;animation:expBarAnim2 2.2s cubic-bezier(.22,1,.36,1) forwards;"></div>
+              </div>
+              </li>
+              <li style="margin-bottom:8px; position:relative;">
+              <span style="font-weight:700;color:#ffb300;font-size:1.18rem;letter-spacing:1px;">
+                <svg width="18" height="18" style="vertical-align:-3px;margin-right:4px;" fill="none" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="#ffb300" stroke-width="2">
+                  <animate attributeName="r" values="10;12;10" dur="2.4s" repeatCount="indefinite"/>
+                </circle>
+                <path d="M12 8v4l3 2" stroke="#ffb300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.4s" repeatCount="indefinite"/>
+                </path>
+                </svg>
+                50+
+              </span>
+              Satisfied Clients
+              <div style="background:linear-gradient(90deg,#fff6b7,#fbc2eb);height:10px;border-radius:8px;overflow:hidden;margin-top:6px;margin-bottom:2px;box-shadow:0 2px 8px #ffb30022;">
+                <div style="width:85%;background:linear-gradient(90deg,#ffb300,#12eb0a,#1b85ff);height:100%;border-radius:8px;transition:width 1s;box-shadow:0 2px 8px #12eb0a33;animation:expBarAnim3 2.4s cubic-bezier(.22,1,.36,1) forwards;"></div>
+              </div>
+              </li>
+            </ul>
+            <style>
+            @keyframes expBarAnim1 { from {width:0;} to {width:90%;} }
+            @keyframes expBarAnim2 { from {width:0;} to {width:98%;} }
+            @keyframes expBarAnim3 { from {width:0;} to {width:85%;} }
+            </style>
+            </div>
+          </div>
+
+        <!-- Card & Logo Design 2025 Style -->
+        <h4 style="
+          font-size: 1.25rem;
+          color: #000000;
+          font-weight: 700;
+          margin-top: 32px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          border-bottom: 3px solid #bd08eb;
+          padding-bottom: 8px;
+          border-radius: 6px;
+          box-shadow: 0 4px 24px #bd08eb44, 0 2px 12px #1b85ff33;
+          text-shadow: 0 4px 18px #1b85ff66, 0 2px 8px #bd08eb44, 0 1px 4px #fff;
+          transition: background 0.3s, color 0.3s;
+          display: inline-block;
+          text-align: center;
+          width: 100%;
+          font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif;
+          letter-spacing: 2px;
+        ">
+          <span style="display:block; text-align:center; font-family:'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif; font-weight:800; font-size:1.35rem; letter-spacing:2px;">
+            Card &amp; Logo Design
+          </span>
+        </h4>
+        <div class="row g-4 justify-content-center mb-3">
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card border-0 shadow-sm" style="border-radius:20px; background:linear-gradient(135deg,#f1bfbf,#afc8d3 80%,#98cc8c 100%); position:relative; overflow:hidden;">
+              <div style="position:absolute;top:18px;right:18px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#12eb0a,#1b85ff);border-radius:50%;box-shadow:0 2px 8px #1b85ff22;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Card Design" style="width:30px;height:30px;">
+              </div>
+              <div class="card-body text-center">
+          <h5 class="card-title" style="font-weight:700;color:#1a3046;">Modern Card Design</h5>
+          <p class="card-text" style="color:#444;">Sleek, minimal, and professional business cards with 2025 design trends: gradients, glassmorphism, and bold typography.</p>
+          <img src="download (4).jfif" alt="Card Sample" style="width:100%;max-width:95px;border-radius:100px;box-shadow:0 2px 12px #1b85ff22;margin-top:10px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="card border-0 shadow-sm" style="border-radius:20px; background:linear-gradient(135deg,#dacfab,#fbc2eb 80%,#a6c1ee 100%); position:relative; overflow:hidden;">
+              <div style="position:absolute;top:18px;right:18px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#bd08eb,#ffb300);border-radius:50%;box-shadow:0 2px 8px #bd08eb22;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Logo Design" style="width:30px;height:30px;">
+              </div>
+              <div class="card-body text-center">
+          <h5 class="card-title" style="font-weight:700;color:#1a3046;">Logo Design</h5>
+          <p class="card-text" style="color:#444;">Custom logos with futuristic gradients, geometric shapes, and vibrant color palettes for strong brand identity.</p>
+          <img src="istockphoto-494294385-612x612.jpg" alt="Logo Sample" style="width:50%;max-width:80px;border-radius:100px;box-shadow:0 2px 12px #7c0e9750;margin-top:10px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>
+          /* Card & Logo Design 2025 Style */
+          .card-title {
+            background: linear-gradient(90deg,#12eb0a,#1b85ff,#bd08eb,#ffb300,#12eb0a);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            animation: colorMoveCard2025 2s linear infinite;
+          }
+          @keyframes colorMoveCard2025 {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+        </style>
+        <!-- Sideshow Animation Start -->
+        <div class="about-sideshow-container my-4" style="max-width: 540px; margin: 0 auto 32px auto; position: relative;">
+          <div class="about-sideshow-slide active" style="display: block;">
+            <img src="images (4).jfif" alt="Modern Card Design" style="width:100%; border-radius: 16px; box-shadow: 0 4px 24px #1b85ff22;">
+            <div class="about-sideshow-caption" style="text-align:center; margin-top:10px; font-weight:600; color:#1a3046;">Modern Card Design</div>
+          </div>
+          <div class="about-sideshow-slide" style="display: none;">
+            <img src="images (5).jfif" alt="Logo Design" style="width:100%; border-radius: 16px; box-shadow: 0 4px 24px #bd08eb22;">
+            <div class="about-sideshow-caption" style="text-align:center; margin-top:10px; font-weight:600; color:#1a3046;">Logo Design</div>
+          </div>
+          <div class="about-sideshow-slide" style="display: none;">
+            <img src="images (6).jfif" alt="Team Collaboration" style="width:100%; border-radius: 16px; box-shadow: 0 4px 24px #ffb30022;">
+            <div class="about-sideshow-caption" style="text-align:center; margin-top:10px; font-weight:600; color:#1a3046;">Team Collaboration</div>
+          </div>
+          <!-- Sideshow Controls -->
+          <button class="about-sideshow-prev" aria-label="Previous" style="position:absolute;top:50%;left:10px;transform:translateY(-50%);background:rgba(26,48,70,0.12);border:none;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2;transition:background 0.2s;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="about-sideshow-next" aria-label="Next" style="position:absolute;top:50%;right:10px;transform:translateY(-50%);background:rgba(26,48,70,0.12);border:none;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2;transition:background 0.2s;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <!-- Sideshow Dots -->
+          <div class="about-sideshow-dots" style="text-align:center; margin-top:12px;">
+            <span class="about-sideshow-dot active" style="display:inline-block;width:12px;height:12px;margin:0 4px;background:#1b85ff;border-radius:50%;cursor:pointer;transition:background 0.3s;"></span>
+            <span class="about-sideshow-dot" style="display:inline-block;width:12px;height:12px;margin:0 4px;background:#bd08eb;border-radius:50%;cursor:pointer;transition:background 0.3s;"></span>
+            <span class="about-sideshow-dot" style="display:inline-block;width:12px;height:12px;margin:0 4px;background:#ffb300;border-radius:50%;cursor:pointer;transition:background 0.3s;"></span>
+          </div>
+        </div>
+        <style>
+          .about-sideshow-container { box-shadow: 0 8px 32px 0 rgba(31,38,135,0.08); background: #fff; border-radius: 18px; }
+          .about-sideshow-slide { animation: aboutSideshowFade 0.7s cubic-bezier(.22,1,.36,1); }
+          @keyframes aboutSideshowFade { from { opacity: 0; } to { opacity: 1; } }
+          .about-sideshow-prev:hover, .about-sideshow-next:hover { background: #1b85ff22; }
+          .about-sideshow-dot.active { box-shadow: 0 2px 8px #1b85ff55; border: 2px solid #fff; }
+          @media (max-width: 575.98px) {
+            .about-sideshow-container { max-width: 98vw; }
+            .about-sideshow-caption { font-size: 0.98rem; }
+          }
+        </style>
+        <script>
+        (function(){
+          var slides = document.querySelectorAll('.about-sideshow-slide');
+          var dots = document.querySelectorAll('.about-sideshow-dot');
+          var prev = document.querySelector('.about-sideshow-prev');
+          var next = document.querySelector('.about-sideshow-next');
+          var current = 0, timer = null;
+
+          function showSlide(idx) {
+            slides.forEach(function(s,i){ s.style.display = i===idx?'block':'none'; });
+            dots.forEach(function(d,i){ d.classList.toggle('active',i===idx); });
+            current = idx;
+          }
+          function nextSlide() { showSlide((current+1)%slides.length); }
+          function prevSlide() { showSlide((current-1+slides.length)%slides.length); }
+          function autoPlay() {
+            timer = setInterval(nextSlide, 3500);
+          }
+          function stopAuto() { if(timer) clearInterval(timer); }
+          prev.addEventListener('click', function(){ stopAuto(); prevSlide(); autoPlay(); });
+          next.addEventListener('click', function(){ stopAuto(); nextSlide(); autoPlay(); });
+          dots.forEach(function(dot,i){
+            dot.addEventListener('click', function(){ stopAuto(); showSlide(i); autoPlay(); });
+          });
+          showSlide(0); autoPlay();
+        })();
+        </script>
+        <!-- Sideshow Animation End -->
+
+                <h4 style="font-size:1.1rem;color:#1a3046;font-weight:700;margin-top:24px;letter-spacing:1px;text-transform:uppercase;border-bottom:3px solid #12eb0a;padding-bottom:8px;border-radius:6px;box-shadow:0 4px 18px #12eb0a44,0 2px 8px #1b85ff33;text-shadow:0 2px 8px #12eb0a66,0 1px 4px #1b85ff44,0 1px 2px #fff;display:inline-block;text-align:center;width:100%;font-family:'Segoe UI','Arial','Helvetica Neue',Arial,sans-serif;">
+                  <span style="display:block;text-align:center;font-family:'Segoe UI','Arial','Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:1.15rem;letter-spacing:2px;">
+                    Our Values
+                  </span>
+                </h4>
+                <ul style="font-size:1.08rem;color:#333;line-height:2;list-style:none;padding-left:0;display:flex;flex-wrap:wrap;justify-content:center;gap:18px 32px;margin-top:18px;">
+                  <li style="background:linear-gradient(90deg,#12eb0a,#1b85ff);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;font-weight:700;padding:6px 18px;border-radius:12px;box-shadow:0 2px 8px #12eb0a22;transition:background 0.3s,box-shadow 0.3s;animation:valuesAnim1 2s linear infinite alternate;">
+                    <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#12eb0a" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#12eb0a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Customer Success
+                  </li>
+                  <li style="background:linear-gradient(90deg,#bd08eb,#ffb300);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;font-weight:700;padding:6px 18px;border-radius:12px;box-shadow:0 2px 8px #bd08eb22;transition:background 0.3s,box-shadow 0.3s;animation:valuesAnim2 2.2s linear infinite alternate;">
+                    <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#bd08eb" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#bd08eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Collaboration &amp; Teamwork
+                  </li>
+                  <li style="background:linear-gradient(90deg,#aa7b0c,#17aa12);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;font-weight:700;padding:6px 18px;border-radius:12px;box-shadow:0 2px 8px #b4810b22;transition:background 0.3s,box-shadow 0.3s;animation:valuesAnim3 2.4s linear infinite alternate;">
+                    <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#ffb300" stroke-width="2"/><path d="M12 8v4l3 2" stroke="#ffb300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Accountability
+                  </li>
+                  <li style="background:linear-gradient(90deg,#1b85ff,#bd08eb);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;font-weight:700;padding:6px 18px;border-radius:12px;box-shadow:0 2px 8px #1b85ff22;transition:background 0.3s,box-shadow 0.3s;animation:valuesAnim4 2.6s linear infinite alternate;">
+                    <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#1b85ff" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Creativity
+                  </li>
+                  <li style="background:linear-gradient(90deg,#a82583,#1d54b3);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;font-weight:700;padding:6px 18px;border-radius:12px;box-shadow:0 2px 8px #ad288822;transition:background 0.3s,box-shadow 0.3s;animation:valuesAnim5 2.8s linear infinite alternate;">
+                    <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#a6c1ee" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#a6c1ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Ethical Practice
+                  </li>
+                </ul>
+                <style>
+                  @keyframes valuesAnim1 {
+                    0% { background-position: 0% 50%; }
+                    100% { background-position: 100% 50%; }
+                  }
+                  @keyframes valuesAnim2 {
+                    0% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                  }
+                  @keyframes valuesAnim3 {
+                    0% { background-position: 0% 50%; }
+                    100% { background-position: 100% 50%; }
+                  }
+                  @keyframes valuesAnim4 {
+                    0% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                  }
+                  @keyframes valuesAnim5 {
+                    0% { background-position: 0% 50%; }
+                    100% { background-position: 100% 50%; }
+                  }
+                  @media (max-width: 767.98px) {
+                    ul[style*="flex-wrap"] { gap: 10px 8px !important; }
+                    ul[style*="flex-wrap"] li { font-size: 0.98rem !important; padding: 5px 10px !important; }
+                  }
+                  @media (max-width: 575.98px) {
+                    ul[style*="flex-wrap"] { gap: 6px 4px !important; }
+                    ul[style*="flex-wrap"] li { font-size: 0.92rem !important; padding: 4px 6px !important; }
+                  }
+                </style>
+        <h4 style="
+          font-size: 1.15rem;
+          color: #1a3046;
+          font-weight: 700;
+          margin-top: 28px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          border-bottom: 3px solid #ffb300;
+          padding-bottom: 8px;
+          border-radius: 6px;
+          box-shadow: 0 4px 18px #ffb30044, 0 2px 8px #bd08eb33;
+          text-shadow: 0 2px 8px #ffb30066, 0 1px 4px #bd08eb44, 0 1px 2px #fff;
+          display: inline-block;
+          text-align: center;
+          width: 100%;
+          font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif;
+        ">
+          <span style="display:block; text-align:center; font-family:'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif; font-weight:800; font-size:1.18rem; letter-spacing:2px;">
+            What We Offer
+          </span>
+        </h4>
+        <ul style="
+          font-size: 1.08rem;
+          color: #333;
+          line-height: 2;
+          list-style: none;
+          padding-left: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 18px 32px;
+          margin-top: 18px;
+        ">
+          <li style="
+            background: linear-gradient(90deg,#12eb0a,#1b85ff);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #12eb0a22;
+            transition: background 0.3s, box-shadow 0.3s;
+            animation: offerAnim1 2s linear infinite alternate;
+            position: relative;
+          ">
+            <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#12eb0a" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#12eb0a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Custom Web Development &amp; Design
+          </li>
+          <li style="
+            background: linear-gradient(90deg,#bd08eb,#ffb300);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #bd08eb22;
+            transition: background 0.3s, box-shadow 0.3s;
+            animation: offerAnim2 2.2s linear infinite alternate;
+            position: relative;
+          ">
+            <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#bd08eb" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#bd08eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            SEO &amp; Digital Marketing
+          </li>
+          <li style="
+            background: linear-gradient(90deg,#ffb300,#12eb0a);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #ffb30022;
+            transition: background 0.3s, box-shadow 0.3s;
+            animation: offerAnim3 2.4s linear infinite alternate;
+            position: relative;
+          ">
+            <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#ffb300" stroke-width="2"/><path d="M12 8v4l3 2" stroke="#ffb300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Business &amp; IT Consultancy
+          </li>
+          <li style="
+            background: linear-gradient(90deg,#1b85ff,#bd08eb);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #1b85ff22;
+            transition: background 0.3s, box-shadow 0.3s;
+            animation: offerAnim4 2.6s linear infinite alternate;
+            position: relative;
+          ">
+            <svg width="18" height="18" style="vertical-align:-3px;margin-right:6px;" fill="none" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" stroke="#1b85ff" stroke-width="2"/><path d="M9 12.75 11.25 15 15 9.75" stroke="#1b85ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Ongoing Maintenance &amp; Support
+          </li>
+        </ul>
+        <style>
+          @keyframes offerAnim1 {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+          @keyframes offerAnim2 {
+            0% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+          }
+          @keyframes offerAnim3 {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+          @keyframes offerAnim4 {
+            0% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+          }
+          @media (max-width: 767.98px) {
+            ul[style*="flex-wrap"] { gap: 10px 8px !important; }
+            ul[style*="flex-wrap"] li { font-size: 0.98rem !important; padding: 5px 10px !important; }
+          }
+          @media (max-width: 575.98px) {
+            ul[style*="flex-wrap"] { gap: 6px 4px !important; }
+            ul[style*="flex-wrap"] li { font-size: 0.92rem !important; padding: 4px 6px !important; }
+          }
+        </style>
+      </div>
+      <!-- More Information End -->
+    </div>
+    <div class="row align-items-center justify-content-center text-center position-relative" style="z-index:1;">
+      <div class="col-md-6 about-fadein delay-1 d-flex flex-column justify-content-center align-items-center">
+        <div class="about-video-anim">
+          <video class="w-100 rounded shadow" autoplay muted loop style="border-radius: 12px;">
+            <source src="https://cdn.pixabay.com/video/2020/08/27/48420-453832153_tiny.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- Extra: animated overlay for video -->
+        <div style="position:absolute;top:10%;left:10%;pointer-events:none;z-index:2;">
+          <svg width="60" height="60" viewBox="0 0 60 60">
+            <circle cx="30" cy="30" r="28" fill="none" stroke="url(#aboutVideoGlow)" stroke-width="4" stroke-dasharray="8 8">
+              <animateTransform attributeName="transform" type="rotate" from="0 30 30" to="360 30 30" dur="6s" repeatCount="indefinite"/>
+            </circle>
+            <defs>
+              <linearGradient id="aboutVideoGlow" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#12eb0a"/>
+                <stop offset="1" stop-color="#bd08eb"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="col-md-6 about-fadein d-flex flex-column justify-content-center align-items-center">
+        <div class="about-glass-card">
+          <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
+            At the heart of our work is a strong desire to make a 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #ffe066, #ffd700); color: #222;">meaningful impact</span>.
+            We continuously adapt to evolving industry trends while staying true to 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #b2f7ef, #40c9ff); color: #222;">time-tested values</span>.
+            Our mission is not just to <span class="about-keyword" style="background: linear-gradient(90deg, #fbc2eb, #a6c1ee); color: #222;">succeed</span>, but to 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #c2ffd8, #465e8a); color: #222;">grow responsibly</span>, serve our community, and leave a 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #fff6b7, #f6416c); color: #222;">legacy of trust</span>.
+          </p>
+          <p style="font-size: 1.2rem; line-height: 1.8; color: #555; text-align: center;">
+            We invite you to be a part of our journey — where 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #b2fefa, #0ed2f7); color: #222;">tradition meets innovation</span>, and every step is guided by 
+            <span class="about-keyword" style="background: linear-gradient(90deg, #fbc2eb, #a6c1ee); color: #222;">purpose</span>.
+          </p>
+          <!-- Extra: animated underline for last sentence -->
+          <div class="about-fancy-underline" style="font-size:1.1rem;color:#1b85ff;margin-top:10px;">
+            Let's build the future together!
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-5" style="background-color: #f8f9fa;">
-  <div class="container">
-    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Our Services</h2>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
-          <img src="https://www.fifteendesign.co.uk/wp-content/uploads/2022/12/Will-web-development-die-in-10-years-1.jpg" alt="Web Development" class="img-fluid mb-3 rounded">
-          <h4 style="color: #1a3046; font-weight: bold;">Web Development</h4>
-          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Custom websites built with modern technologies and responsive design.</p>
+<section id="services" class="py-5" style="background-color: #ffffff;">
+  <div class="container" style="position:relative; z-index:1;">
+    <!-- Extra Glassmorphism Animated Backgrounds -->
+    <div class="services-bg-anim"></div>
+    <div class="services-bg-anim2"></div>
+    <!-- Decorative SVG Shape Top Left -->
+    <svg width="120" height="120" viewBox="0 0 120 120" style="position:absolute;top:-40px;left:-40px;z-index:0;opacity:0.18;" fill="none">
+      <circle cx="60" cy="60" r="60" fill="url(#serviceGrad1)"/>
+      <defs>
+        <linearGradient id="serviceGrad1" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#12eb0a"/>
+          <stop offset="1" stop-color="#1b85ff"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <!-- Decorative SVG Shape Bottom Right -->
+    <svg width="90" height="90" viewBox="0 0 90 90" style="position:absolute;bottom:-30px;right:-30px;z-index:0;opacity:0.15;" fill="none">
+      <rect width="90" height="90" rx="30" fill="url(#serviceGrad2)"/>
+      <defs>
+        <linearGradient id="serviceGrad2" x1="0" y1="0" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#bd08eb"/>
+          <stop offset="1" stop-color="#ffb300"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <h2 class="text-center section-title animated-underline" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px; position: relative; display: block; text-align: center;">
+      <span class="color-animate">Our Services</span>
+      <style>
+        .color-animate {
+          background: linear-gradient(90deg, #8cc228, #911bff, #08eb1b, #0059ff, #102e83);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          animation: colorMove3 2s linear infinite;
+        }
+        @keyframes colorMove3 {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .animated-underline {
+          position: relative;
+          display: inline-block;
+          text-align: center;
+        }
+        .animated-underline::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -8px;
+          width: 100%;
+          height: 5px;
+          background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+          background-size: 300% 100%;
+          border-radius: 3px;
+          animation: underlineMove 2s linear infinite;
+        }
+        @keyframes underlineMove {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        /* Modern Card Animation */
+        .service-card {
+          background: #fff;
+          border-radius: 18px;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.12);
+          transition: transform 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1), border 0.3s;
+          position: relative;
+          overflow: hidden;
+          border: 2px solid transparent;
+        }
+        .service-card:hover {
+          transform: translateY(-10px) scale(1.04) rotate(-1deg);
+          box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.18);
+          border: 2px solid #1b85ff;
+          background: linear-gradient(135deg, #f8faff 80%, #e6f7ff 100%);
+        }
+        .service-card img {
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+          border-radius: 12px 12px 0 0;
+          filter: grayscale(10%) brightness(0.98);
+          transition: filter 0.4s, transform 0.4s, box-shadow 0.3s;
+          box-shadow: 0 2px 12px #1b85ff22;
+        }
+        .service-card:hover img {
+          filter: grayscale(0%) brightness(1.08);
+          transform: scale(1.07) rotate(-1deg);
+          box-shadow: 0 8px 32px #1b85ff33;
+        }
+        .service-card h4 {
+          margin-top: 18px;
+          font-size: 1.35rem;
+          letter-spacing: 1px;
+          background: linear-gradient(90deg, #1b85ff, #bd08eb, #12eb0a);
+          background-size: 200% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          animation: colorMove3 2s linear infinite;
+          text-shadow: 0 2px 12px #bd08eb22;
+        }
+        .service-card p {
+          font-size: 1.05rem;
+          color: #444;
+          margin-bottom: 0;
+          padding: 0 6px;
+          transition: color 0.3s;
+        }
+        .service-card:hover p {
+          color: #1a3046;
+        }
+        /* Animated icon overlay */
+        .service-icon-anim {
+          position: absolute;
+          top: 18px;
+          right: 18px;
+          width: 38px;
+          height: 38px;
+          background: linear-gradient(135deg, #12eb0a 0%, #1b85ff 100%);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 8px rgba(18,235,10,0.12);
+          animation: iconPulse 1.8s infinite alternate;
+          z-index: 2;
+          border: 2px solid #fff;
+        }
+        @keyframes iconPulse {
+          0% { transform: scale(1);}
+          100% { transform: scale(1.15);}
+        }
+        /* Glassmorphism background for section */
+        .services-bg-anim {
+          position: absolute;
+          top: -60px;
+          left: -80px;
+          width: 320px;
+          height: 320px;
+          background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+          filter: blur(60px);
+          z-index: 0;
+          animation: float1 8s ease-in-out infinite alternate;
+        }
+        .services-bg-anim2 {
+          position: absolute;
+          bottom: -80px;
+          right: -60px;
+          width: 260px;
+          height: 260px;
+          background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+          filter: blur(60px);
+          z-index: 0;
+          animation: float2 10s ease-in-out infinite alternate;
+        }
+        @keyframes float1 {
+          0% { transform: translateY(0) scale(1);}
+          100% { transform: translateY(40px) scale(1.08);}
+        }
+        @keyframes float2 {
+          0% { transform: translateY(0) scale(1);}
+          100% { transform: translateY(-30px) scale(1.04);}
+        }
+        /* Card entry animation */
+        .service-card {
+          opacity: 0;
+          transform: translateY(40px) scale(0.98);
+          animation: serviceFadeIn 1.1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+        .service-card:nth-child(1) { animation-delay: 0.15s; }
+        .service-card:nth-child(2) { animation-delay: 0.25s; }
+        .service-card:nth-child(3) { animation-delay: 0.35s; }
+        @keyframes serviceFadeIn {
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+        /* Responsive grid */
+        @media (max-width: 991.98px) {
+          .service-card img { height: 150px; }
+        }
+        @media (max-width: 767.98px) {
+          .service-card img { height: 120px; }
+          .service-card { margin-bottom: 24px; }
+        }
+        @media (max-width: 575.98px) {
+          .service-card img { height: 90px; }
+          .service-card { padding: 1.2rem 0.8rem; }
+          .section-title { font-size: 1.3rem !important; }
+        }
+      </style>
+    </h2>
+    <div class="services-bg-anim"></div>
+    <div class="services-bg-anim2"></div>
+    <div class="row g-4 justify-content-center position-relative" style="z-index:1;">
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="service-card p-4 flex-fill">
+          <span class="service-icon-anim">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2 7h10M7 13h10M7 17h6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <img src="Will-web-development-die-in-10-years-1.jpg" alt="Web Development" class="img-fluid mb-3 rounded">
+          <h4>Web Development</h4>
+          <p>Custom websites built with modern technologies and responsive design.</p>
+          <ul style="margin-top:10px; padding-left:18px; color:#1b85ff; font-size:0.98rem;">
+            <li>
+              <img src="https://www.fifteendesign.co.uk/wp-content/uploads/2022/12/Will-web-development-die-in-10-years-1.jpg" alt="Web Dev Logo" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #1b85ff33;margin-right:6px;vertical-align:middle;">
+              HTML5, CSS3, JavaScript
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #7952b333;margin-right:6px;vertical-align:middle;">
+              Bootstrap &amp; modern frameworks
+            </li>
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Mobile Logo" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #12eb0a33;margin-right:6px;vertical-align:middle;">
+              Mobile-first approach
+            </li>
+            <li>
+              <span style="display:inline-flex;align-items:center;gap:5px;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #e44d2633;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #1572b633;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #f7df1e33;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #7952b333;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #61dafb33;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" style="width:22px;height:22px;border-radius:4px;background:#fff;box-shadow:0 1px 4px #42b88333;">
+              </span>
+              <span style="font-size:0.98rem;color:#555;font-weight:500;margin-left:6px;">Frameworks</span>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
-          <img src="https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp" alt="SEO Optimization" class="img-fluid mb-3 rounded">
-          <h4 style="color: #1a3046; font-weight: bold;">SEO Optimization</h4>
-          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Increase website traffic and boost sales with effective SEO strategies.</p>
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="service-card p-4 flex-fill">
+          <span class="service-icon-anim" style="background: linear-gradient(135deg, #ffb300 0%, #bd08eb 100%);">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <img src="SEO-for-Small-Business.webp" alt="SEO Optimization" class="img-fluid mb-3 rounded">
+          <h4>SEO Optimization</h4>
+          <p>Increase website traffic and boost sales with effective SEO strategies.</p>
+          <ul style="margin-top:10px; padding-left:18px; color:#bd08eb; font-size:0.98rem;">
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="SEO Logo" style="width:24px;height:24px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #bd08eb33;background:#fff;">
+              On-page &amp; off-page SEO
+            </li>
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="Keyword Logo" style="width:24px;height:24px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #bd08eb33;background:#fff;">
+              Keyword research
+            </li>
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Analytics Logo" style="width:24px;height:24px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #bd08eb33;background:#fff;">
+              Performance analytics
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="service-card p-4 shadow rounded" style="background-color: white; transition: transform 0.3s, box-shadow 0.3s;">
-          <img src="https://i.vimeocdn.com/video/1317899763-45200f5a952a9dbf16046d30d3d24e042c10deb85f8e8c52503fb504e9d44b23-d_1280x720?r=pad" alt="Consultancy" class="img-fluid mb-3 rounded">
-          <h4 style="color: #1a3046; font-weight: bold;">Consultancy</h4>
-          <p style="color: #555; font-size: 1rem; line-height: 1.6;">Get expert advice and solutions tailored to your business goals.</p>
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="service-card p-4 flex-fill">
+          <span class="service-icon-anim" style="background: linear-gradient(135deg, #1b85ff 0%, #12eb0a 100%);">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <img src="patient-profile-color-icon-design-style-vector.jpg" alt="Consultancy" class="img-fluid mb-3 rounded">
+          <h4>Consultancy</h4>
+          <p>Get expert advice and solutions tailored to your business goals.</p>
+          <ul style="margin-top:10px; padding-left:18px; color:#1b85ff; font-size:0.98rem;">
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Strategy Logo" style="width:22px;height:22px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #1b85ff33;background:#fff;">
+              Business strategy
+            </li>
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/2721/2721296.png" alt="Technical Logo" style="width:22px;height:22px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #12eb0a33;background:#fff;">
+              Technical guidance
+            </li>
+            <li>
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Growth Logo" style="width:22px;height:22px;vertical-align:middle;margin-right:6px;border-radius:6px;box-shadow:0 1px 4px #ffb30033;background:#fff;">
+              Growth planning
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -269,164 +1651,1955 @@
 </section>
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="py-5" style="background-color: #f8f9fa;">
+<section id="portfolio" class="py-5" style="background-color: #ffffff; position: relative; overflow: hidden;"></section>
   <div class="container">
-    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Portfolio</h2>
-    <div class="portfolio-scroll-wrapper">
+    <h2 class="text-center section-title animated-underline" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px; position: relative; display: block; text-align: center;">
+      <span class="portfolio-animate">Portfolio</span>
+      <style>
+      .portfolio-animate {
+        background: linear-gradient(90deg, #d30505, #04c565, #c2cf07, #c08807, #10a50b, #055cc0, #8309a1, #b9850b);
+        background-size: 400% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: portfolioColorMove 2.5s linear infinite;
+        filter: drop-shadow(0 2px 16px rgba(255, 179, 0, 0.18));
+      }
+      @keyframes portfolioColorMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animated-underline {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
+      .animated-underline::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -8px;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg, #ff1313, #1bff8d, #dceb08, #ffb300, #12eb0a, #1b85ff, #bd08eb, #ffb300);
+        background-size: 400% auto;
+        border-radius: 3px;
+        animation: portfolioUnderlineMove 2.5s linear infinite;
+        box-shadow: 0 2px 16px rgba(255, 179, 0, 0.18);
+      }
+      @keyframes portfolioUnderlineMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animated-underline, .portfolio-animate {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+        animation: portfolioFadeIn 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards;
+      }
+      @keyframes portfolioFadeIn {
+        to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        }
+      }
+      .portfolio-animate {
+        text-shadow: 0 2px 16px rgba(255, 179, 0, 0.15), 0 1px 2px rgba(26, 48, 70, 0.08);
+      }
+      /* Modern glassmorphism background animation */
+      .portfolio-bg-anim {
+        position: absolute;
+        top: -60px;
+        left: -80px;
+        width: 320px;
+        height: 320px;
+        background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: float1 8s ease-in-out infinite alternate;
+      }
+      .portfolio-bg-anim2 {
+        position: absolute;
+        bottom: -80px;
+        right: -60px;
+        width: 260px;
+        height: 260px;
+        background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: float2 10s ease-in-out infinite alternate;
+      }
+      @keyframes float1 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(40px) scale(1.08);}
+      }
+      @keyframes float2 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(-30px) scale(1.04);}
+      }
+      /* Portfolio Card Animation */
+      .portfolio-item {
+        background: rgb(225, 219, 231);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+        transition: transform 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1), background 0.3s;
+        position: relative;
+        overflow: hidden;
+        padding: 18px 0 10px 0;
+        will-change: transform;
+      }
+      .portfolio-item:hover {
+        transform: translateY(-8px) scale(1.04) rotate(-1deg);
+        box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.18);
+        background: rgba(12, 6, 41, 0.95);
+        z-index: 2;
+      }
+      .portfolio-img-wrapper {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 16px rgba(26, 48, 70, 0.10);
+        margin-bottom: 10px;
+        background: linear-gradient(135deg, #fff6b7 0%, #f6416c 100%);
+        transition: box-shadow 0.3s, background 0.3s;
+      }
+      .portfolio-item:hover .portfolio-img-wrapper {
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.18);
+        background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+      }
+      .portfolio-img-wrapper img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 12px;
+        transition: transform 0.4s cubic-bezier(.22,1,.36,1), filter 0.4s cubic-bezier(.22,1,.36,1);
+        filter: grayscale(10%) brightness(0.98);
+      }
+      .portfolio-item:hover .portfolio-img-wrapper img {
+        transform: scale(1.12) rotate(-2deg);
+        filter: grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #1b85ff33);
+      }
+      .portfolio-item p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0;
+        transition: color 0.3s;
+        letter-spacing: 0.01em;
+      }
+      .portfolio-item:hover p {
+        color: #1a3046;
+        text-shadow: 0 2px 8px #1b85ff22;
+      }
+      /* Entry animation for cards */
+      .portfolio-item {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+        animation: portfolioCardFadeIn 1.1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+      }
+      .portfolio-item:nth-child(1) { animation-delay: 0.15s; }
+      .portfolio-item:nth-child(2) { animation-delay: 0.23s; }
+      .portfolio-item:nth-child(3) { animation-delay: 0.31s; }
+      .portfolio-item:nth-child(4) { animation-delay: 0.39s; }
+      .portfolio-item:nth-child(5) { animation-delay: 0.47s; }
+      .portfolio-item:nth-child(6) { animation-delay: 0.55s; }
+      .portfolio-item:nth-child(7) { animation-delay: 0.63s; }
+      .portfolio-item:nth-child(8) { animation-delay: 0.71s; }
+      .portfolio-item:nth-child(9) { animation-delay: 0.79s; }
+      .portfolio-item:nth-child(10) { animation-delay: 0.87s; }
+      .portfolio-item:nth-child(11) { animation-delay: 0.95s; }
+      .portfolio-item:nth-child(12) { animation-delay: 1.03s; }
+      @keyframes portfolioCardFadeIn {
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+      /* Responsive tweaks */
+      @media (max-width: 767.98px) {
+        .animated-underline::after { height: 3px; }
+        .portfolio-animate { font-size: 1.5rem !important; }
+        .portfolio-item { padding: 10px 0 6px 0; }
+        .portfolio-img-wrapper img { width: 70px; height: 70px; }
+      }
+      @media (max-width: 575.98px) {
+        .portfolio-img-wrapper img { width: 54px; height: 54px; }
+        .portfolio-item p { font-size: 0.92rem; }
+      }
+      </style>
+    </h2>
+    <div class="portfolio-bg-anim"></div>
+    <div class="portfolio-bg-anim2"></div>
+    <div class="portfolio-scroll-wrapper" style="z-index:1;">
       <div class="row g-4">
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://jahidads.github.io/Developer-portfolio/#" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://scontent.fdac174-1.fna.fbcdn.net/v/t39.30808-6/498314568_122095333886890978_27573746732962184_n.webp?stp=dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=v6u2NmWVsXkQ7kNvwHbcfae&_nc_oc=AdkC4hGjFeyC0PSXVGn1gsilJdIwxEn7qxpO7H_tqVgV8hsfkGGiEwLrr8h999Z4Ryw&_nc_zt=23&_nc_ht=scontent.fdac174-1.fna&_nc_gid=s1wCMXP5iOvtWZQ-mWBTNg&oh=00_AfITD6lm6ALg1NWkyx49KYB6ZYqIUfltWlVoThr3bO-XlQ&oe=6838DC39" alt="Project 1" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #6e4297 0%, #d3a9c7 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(196, 70, 112, 0.15); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="image/download (3).jfif" 
+                  alt="Project 1" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #cc52a955, 0 6px 24px #72469c44;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4e3368 0%, #a1578c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 01 - Developer Portfolio</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 01 - Developer Portfolio
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://jahidads.github.io/my-traditional-website/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://images-platform.99static.com//_-efnTC02kmxV6Dicoa4bjSMSjs=/516x3011:1255x3750/fit-in/500x500/99designs-contests-attachments/66/66702/attachment_66702512" alt="Project 2" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #7642a7 0%, #43aaa1 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(124, 41, 69, 0.418); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="vip-icon-for-graphic-design-logo-website-social-media-mobile-app-ui-png.webp" 
+                  alt="Project 2" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4e3368 0%, #a1578c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 02 - Traditional-website</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 02 - Traditional-website
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="#" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://scontent.fdac174-1.fna.fbcdn.net/v/t39.30808-6/498386944_122095306550890978_8439212493866377379_n.webp?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DmKx7lW-yhIQ7kNvwHWaEh4&_nc_oc=AdnsCNWceFKHE3wQySDOQyC4MfCbVQZct3zSMbT92Axbmvppd_bUsWv5QlzD-J9mAqo&_nc_zt=23&_nc_ht=scontent.fdac174-1.fna&_nc_gid=C-12igTlHYC-nByOyNiXxA&oh=00_AfLGkS-Qb9Cht7zsZIzntpSRsNowRqtnpdyZPI1Difynkg&oe=6838F2C5" alt="Project 3" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #17754e 0%, #fbc2eb 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(236, 64, 122, 0.15); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="project-task-management-and-effective-time-planning-tools-project-development-icon-3d-vector-illustration-png.webp" 
+                  alt="Project 3" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4524649a 0%, #549ecf8c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 03 - Business Portfolio</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 03 - Business Portfolio
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://www.google.com/maps/place/jahidads/@25.0576574,89.0901594,17z/data=!3m1!4b1!4m6!3m5!1s0x39fc8d007d74c671:0x6e27870ee3260c1d!8m2!3d25.0576574!4d89.0901594!16s%2Fg%2F11vyr2610b?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://lh3.googleusercontent.com/p/AF1QipMRnU87_PWYM-qdOrfEj3PZFkwRN4_8hKZnvxNp=w408-h545-k-no" alt="Project 4" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #4eb6b9 0%, #ad9732 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(236, 64, 122, 0.15); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="my-home.jpg" 
+                  alt="Project 4" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4524649a 0%, #549ecf8c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 04 - Business Address</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 04 - Business Address
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://jahidads.github.io/Cyber-Security/#" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://scontent.fdac174-1.fna.fbcdn.net/v/t39.30808-6/499916780_122095304786890978_6561933449425652960_n.webp?stp=dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=o6yXvS-YpQwQ7kNvwHgqTxa&_nc_oc=AdnSwI_OXmaSwOYSjxzTyuGlFps3AIMV6kLBJmQMt1LZ5X6FHk7eodFfBCJuAdb5ZSo&_nc_zt=23&_nc_ht=scontent.fdac174-1.fna&_nc_gid=aZ9ee3mEsROGS7PH-HXkYQ&oh=00_AfKaaySIZ_-kPwMk1CdrM4dzjo7RpnkuuTkV8TuM-D17jg&oe=6838E04E" alt="Project 5" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #3d8491 0%, #a14186 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(48, 68, 136, 0.486); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="hacker-logo-or-hacker-in-black-hoodie-cyber-crime-with-laptop-free-png (1).webp" 
+                  alt="Project 5" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #6da18c55, 0 6px 24px #60aa566e;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4e3368 0%, #a1578c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 05 - Syber security </p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 05 - Syber security
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://www.youtube.com/channel/UCRWMWwq1-PMkDunPDrNjOiA" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://img.freepik.com/premium-vector/cooperate-marketing-business-company-vector-logo-design-with-color-option_765114-108.jpg?w=826" alt="Project 6" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #39c45c 0%, #b86d5b 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(150, 66, 66, 0.315); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="download (1).jfif" 
+                  alt="Project 6" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #b17d4255, 0 6px 24px #69a35d44;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #68333e 0%, #a18157 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 06 - Marketing portfolio</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 06 - Marketing portfolio
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://jahidads.github.io/my-portfolio/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://scontent.fdac174-1.fna.fbcdn.net/v/t39.30808-1/495563656_122107947614855440_1152109947886773901_n.jpg?stp=c0.0.1542.1542a_dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_ohc=fShzMFoc9Z4Q7kNvwEDfVCl&_nc_oc=AdluVD8yY5pPqSZDGYOwei5buXl1-Y4q0895JLG83cmZUZoXmIPovfuxGAO4OE7f_KI&_nc_zt=24&_nc_ht=scontent.fdac174-1.fna&_nc_gid=3PJlZ6FE1d-vIfSk16MQwg&oh=00_AfIyOWRgtvvH0jbCgss3j2id7KXZTPkIiB336vMQ-Cq2YQ&oe=68373FD9" alt="Project 7" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #b19761b7 0%, #5a6b88 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(214, 53, 169, 0.329); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="jahid.jpg" 
+                  alt="Project 7" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #9da36681, 0 6px 24px #92ddc04b;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4ea081 0%, #6d355d 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 07 - My Portfolio</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 07 - My Portfolio
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://www.facebook.com/jahidads1" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Project 8" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #518130 0%, #68445eb0 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(236, 64, 121, 0.527); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" 
+                  alt="Project 8" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #6f8eb655, 0 6px 24px #348654a9;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #8660aa 0%, #8d577e 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 08 - Facebook</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 08 - Facebook Account
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
-          <a href="https://www.amazon.in/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
+          <a href="https://jahidads.github.io/Resume-Portfolio/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935559/acastro_STK103__02.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100" alt="Project 9" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #be62a4 0%, #a6c1ee 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(67, 99, 117, 0.18); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="patient-profile-color-icon-design-style-vector.jpg" 
+                  alt="Project 9" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 12px; 
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #802566a2, 0 6px 24px #66379277;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #3aa84d 0%, #a1578c 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #fbc2eb88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #fbc2eb55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #fbc2eb55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #fbc2eb 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 09 - Amazon</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 09 - Resume Portfolio
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://jahidads.github.io/Web-Developer/" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://scontent.fdac174-1.fna.fbcdn.net/v/t39.30808-6/499925852_122097639218890978_8550758550378172993_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8RhKp_EjiOUQ7kNvwEHdI5C&_nc_oc=Adl4hlHMvewebuKR5Do7kHB7S_7CSK7-5O_rKQOcTqYYsy-Owjh8OzWSJpKEEzk0jds&_nc_zt=23&_nc_ht=scontent.fdac174-1.fna&_nc_gid=brYM1W9lY0tvpV2SJMZ-Zw&oh=00_AfKdJKPUAx5nbpfSidfi4f2-tdSuT_rLoocszNZtpMQjUQ&oe=6838D603" alt="Project 10" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #519fb3 0%, #31947b 100%); border-radius: 14px; padding: 10px; box-shadow: 0 6px 24px rgba(146, 89, 23, 0.822); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="vecteezy_icon-free-logo-javascript_53066817.png" 
+                  alt="Project 10" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 14px;
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #622b96d7, 0 6px 24px #479467da;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #4d2375 0%, #6193c5 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #8ec5fc88)';
+                    this.style.boxShadow='0 8px 32px #e0c3fc44, 0 2px 12px #8ec5fc55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #8ec5fc55, 0 6px 24px #e0c3fc44';
+                    this.style.background='linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)';
+                  "
+                >
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 10 - Web Developer</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 10 - Web Developer
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://cdn.storifyme.xyz/accounts/cashify-in-0561312/assets/f-bd4716300a6c80b04a47a48e598548c9-48831674122268443.jpeg?t=1674125418000" alt="Project 11" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+              <div style="background: linear-gradient(135deg, #ffe06633 0%, #1b85ff22 100%); border-radius: 14px; padding: 8px; box-shadow: 0 4px 16px rgba(26, 48, 70, 0.10); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="https://cdn.storifyme.xyz/accounts/cashify-in-0561312/assets/f-bd4716300a6c80b04a47a48e598548c9-48831674122268443.jpeg?t=1674125418000" 
+                  alt="Project 11" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 14px;
+                    transition: 
+                      transform 0.4s cubic-bezier(.22,1,.36,1), 
+                      filter 0.4s cubic-bezier(.22,1,.36,1), 
+                      box-shadow 0.4s cubic-bezier(.22,1,.36,1), 
+                      background 0.4s;
+                    box-shadow: 0 2px 12px #4c8a3083, 0 6px 24px #1b85ff22;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #48319cd7 0%, #1b85ff22 100%);
+                    padding: 6px;
+                  "
+                  onmouseover="
+                    this.style.transform='scale(1.13) rotate(-2deg)';
+                    this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #97822f88)';
+                    this.style.boxShadow='0 8px 32px #1b85ff44, 0 2px 12px #97822f55';
+                    this.style.background='linear-gradient(135deg, #fff6b7 0%, #f6416c 100%)';
+                  "
+                  onmouseout="
+                    this.style.transform='scale(1)';
+                    this.style.filter='grayscale(10%) brightness(0.98)';
+                    this.style.boxShadow='0 2px 12px #ffe06655, 0 6px 24px #1b85ff22';
+                    this.style.background='linear-gradient(135deg, #ffe06633 0%, #1b85ff22 100%)';
+                  "
+                />
+              </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 11 - wikipedia</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #2e832c, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 11 -view Wikipedia
+            </p>
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
           <a href="https://t.me/jahidads12" target="_blank" class="portfolio-item d-block text-center text-decoration-none">
             <div class="portfolio-img-wrapper">
-              <img src="https://imgcdn.stablediffusionweb.com/2024/11/14/238b92ec-a501-4be0-9ee5-4ddfcef8c984.jpg" alt="Project 12" class="img-fluid mb-3 shadow" style="width: 100px; height: 100px; object-fit: cover;">
+                <div style="background: linear-gradient(135deg, #338b3077 0%, #bd08eb22 100%); border-radius: 14px; padding: 8px; box-shadow: 0 4px 16px rgba(50, 103, 156, 0.651); transition: box-shadow 0.3s, background 0.3s;">
+                <img 
+                  src="https://imgcdn.stablediffusionweb.com/2024/11/14/238b92ec-a501-4be0-9ee5-4ddfcef8c984.jpg" 
+                  alt="Project 12" 
+                  class="img-fluid mb-2 shadow"
+                  style="
+                    border-radius: 14px;
+                    transition: transform 0.4s, filter 0.4s, box-shadow 0.4s, background 0.4s;
+                    box-shadow: 0 2px 12px #1f639b55, 0 6px 24px #7b109622;
+                    filter: grayscale(10%) brightness(0.98);
+                    background: linear-gradient(135deg, #0ad1eb7a 0%, #ba3edab2 100%);
+                    padding: 6px;
+                    "
+                  onmouseover="this.style.transform='scale(1.13) rotate(-2deg)'; this.style.filter='grayscale(0%) brightness(1.08) drop-shadow(0 2px 8px #12eb0a88)'; this.style.boxShadow='0 8px 32px #bd08eb44, 0 2px 12px #12eb0a55';"
+                  onmouseout="this.style.transform='scale(1)'; this.style.filter='grayscale(10%) brightness(0.98)'; this.style.boxShadow='0 2px 12px #12eb0a55, 0 6px 24px #bd08eb22';"
+                />
+                </div>
             </div>
-            <p style="color: #333; font-size: 1rem; font-weight: bold;">Project 12 - Airdrop</p>
+            <p style="
+              font-size: 1.08rem;
+              font-weight: bold;
+              color: #1a3046;
+              background: linear-gradient(90deg, #168a12d8, #115bafd8, #80159bd7, #ffb300, #12eb0a);
+              background-size: 300% 100%;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-shadow: 0 2px 8px #1b85ff22;
+              letter-spacing: 0.03em;
+              border-radius: 8px;
+              padding: 4px 0;
+              transition: background 0.4s, color 0.4s;
+              animation: colorMove3 2s linear infinite;
+            ">
+              Project 12 - Telegram Airdrop
+            </p>
           </a>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section></div>
 
 <!-- Contact Section -->
-<section id="contact" class="py-5" style="background-color: #f8f9fa;">
-  <div class="container">
-    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Contact Us</h2>
-    <form style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
-      <div class="row">
-        <div class="col-md-6">
-          <input type="text" class="form-control mb-3" placeholder="Your Name" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;">
-        </div>
-        <div class="col-md-6">
-          <input type="email" class="form-control mb-3" placeholder="Your Email" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;">
+<section id="contact" class="py-5" style="background-color: #ffffff; position: relative; overflow: hidden;">
+  <div class="container position-relative">
+    <!-- Glassmorphism animated background shapes -->
+    <div class="contact-bg-anim"></div>
+    <div class="contact-bg-anim2"></div>
+    <h2 class="text-center section-title animated-underline" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px; position: relative; display: block; text-align: center;">
+      <span class="contact-animate">Contact Us</span>
+      <style>
+      .contact-animate {
+        background: linear-gradient(90deg, #3f9c3c, #1d589b, #bd08eb, #ffb300, #12eb0a);
+        background-size: 300% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: contactColorMove 2s linear infinite;
+      }
+      @keyframes contactColorMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animated-underline {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
+      .animated-underline::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -8px;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+        background-size: 300% 100%;
+        border-radius: 3px;
+        animation: contactUnderlineMove 2s linear infinite;
+      }
+      @keyframes contactUnderlineMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animated-underline, .contact-animate {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+        animation: contactFadeIn 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards;
+      }
+      @keyframes contactFadeIn {
+        to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        }
+      }
+      /* Glassmorphism animated background */
+      .contact-bg-anim {
+        position: absolute;
+        top: -60px;
+        left: -80px;
+        width: 260px;
+        height: 260px;
+        background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: contactFloat1 8s ease-in-out infinite alternate;
+      }
+      .contact-bg-anim2 {
+        position: absolute;
+        bottom: -80px;
+        right: -60px;
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: contactFloat2 10s ease-in-out infinite alternate;
+      }
+      @keyframes contactFloat1 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(40px) scale(1.08);}
+      }
+      @keyframes contactFloat2 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(-30px) scale(1.04);}
+      }
+      /* Contact form glass effect */
+      .contact-glass {
+        background: rgba(255,255,255,0.85);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+        border: 1.5px solid rgba(26,48,70,0.08);
+        transition: box-shadow 0.3s;
+        position: relative;
+        z-index: 1;
+      }
+      .contact-glass:hover {
+        box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.18);
+      }
+      /* Input focus and hover */
+      .contact-glass input:focus, .contact-glass textarea:focus {
+        border-color: #1b85ff;
+        box-shadow: 0 0 0 2px #1b85ff33;
+        outline: none;
+        background: #f8fbff;
+      }
+      .contact-glass input, .contact-glass textarea {
+        background: rgba(255,255,255,0.95);
+        border: 1.5px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 14px;
+        font-size: 1rem;
+        margin-bottom: 12px;
+        transition: border-color 0.3s, background 0.3s, box-shadow 0.3s;
+        box-shadow: 0 2px 8px rgba(26,48,70,0.04);
+      }
+      .contact-glass textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+      /* Animated send button */
+      .contact-send-btn {
+        background: linear-gradient(90deg, #1a3046 0%, #1b85ff 100%);
+        border: none;
+        padding: 12px 32px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 16px rgba(26,48,70,0.15);
+        transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+        outline: none;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .contact-send-btn:hover, .contact-send-btn:focus {
+        background: linear-gradient(90deg, #1b85ff 0%, #1a3046 100%);
+        transform: scale(1.05);
+        box-shadow: 0 8px 32px rgba(26,48,70,0.22);
+      }
+      .contact-send-btn svg {
+        vertical-align: middle;
+        margin-right: 8px;
+        animation: sendIconAnim 1.2s infinite alternate;
+      }
+      @keyframes sendIconAnim {
+        0% { transform: translateY(0);}
+        100% { transform: translateY(-3px);}
+      }
+      /* Success message animation */
+      .contact-success {
+        display: none;
+        color: #12eb0a;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 16px;
+        text-align: center;
+        animation: contactSuccessFade 1s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      @keyframes contactSuccessFade {
+        from { opacity: 0; transform: translateY(20px);}
+        to { opacity: 1; transform: translateY(0);}
+      }
+      /* Responsive tweaks */
+      @media (max-width: 767.98px) {
+        .contact-bg-anim, .contact-bg-anim2 { display: none; }
+        .contact-glass { padding: 18px !important; }
+        .section-title { font-size: 1.5rem !important; }
+      }
+      @media (max-width: 575.98px) {
+        .contact-glass { padding: 12px !important; }
+        .section-title { font-size: 1.2rem !important; }
+      }
+      </style>
+    </h2>
+
+    <!-- Additional Contact Information -->
+    <div class="row mb-4">
+      <div class="col-md-6 mb-3">
+        <div style="background:rgba(245,252,255,0.92);border-radius:14px;box-shadow:0 2px 12px #1b85ff22;padding:18px 12px;display:flex;align-items:center;gap:18px;">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#12eb0a,#bd08eb);margin-right:8px;box-shadow:0 2px 8px #bd08eb22;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z" stroke="#fff" stroke-width="2"/></svg>
+          </span>
+          <div>
+            <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Office Address</div>
+            <div style="color:#444;font-size:0.98rem;">Bangladesh,Khetlal-joypurhat</div>
+          </div>
         </div>
       </div>
-      <textarea class="form-control mb-3" rows="5" placeholder="Your Message" style="border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 1rem; transition: border-color 0.3s;"></textarea>
+      <div class="col-md-6 mb-3">
+        <div style="background:rgba(245,252,255,0.92);border-radius:14px;box-shadow:0 2px 12px #1b85ff22;padding:18px 12px;display:flex;align-items:center;gap:18px;">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#ffb300,#1b85ff);margin-right:8px;box-shadow:0 2px 8px #1b85ff22;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M16 8a6 6 0 1 1-12 0 6 6 0 0 1 12 0zm2 12v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="#fff" stroke-width="2"/></svg>
+          </span>
+          <div>
+            <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Contact Person</div>
+            <div style="color:#444;font-size:0.98rem;">Jahid Hasan, CEO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- More Information Section -->
+    <div class="row mb-4">
+      <div class="col-md-6 mb-3">
+        <div style="background:rgba(245,252,255,0.96);border-radius:14px;box-shadow:0 2px 12px #bd08eb22;padding:18px 12px;display:flex;align-items:center;gap:18px;">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#bd08eb,#ffb300);margin-right:8px;box-shadow:0 2px 8px #bd08eb22;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8M5 19h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z" stroke="#fff" stroke-width="2"/></svg>
+          </span>
+          <div>
+            <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Support Email</div>
+            <div style="color:#444;font-size:0.98rem;">support@bizname.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div style="background:rgba(245,252,255,0.96);border-radius:14px;box-shadow:0 2px 12px #12eb0a22;padding:18px 12px;display:flex;align-items:center;gap:18px;">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#12eb0a,#1b85ff);margin-right:8px;box-shadow:0 2px 8px #12eb0a22;">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z" stroke="#fff" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="#fff" stroke-width="2"/></svg>
+          </span>
+          <div>
+            <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Visit Us</div>
+            <div style="color:#444;font-size:0.98rem;">Ekorgara Road, Bottoli 5900</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="text-center mb-4">
+      <span style="font-weight:600;color:#1a3046;font-size:1.08rem;display:block;margin-bottom:8px;">Connect with us:</span>
+      <div style="display:flex;justify-content:center;gap:18px;flex-wrap:wrap;">
+        <a href="https://www.facebook.com/jahidads1" target="_blank" title="Facebook" style="display:inline-block;">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" style="width:32px;height:32px;border-radius:8px;box-shadow:0 2px 8px #1b85ff33;">
+        </a>
+        <a href="https://twitter.com/jahidhasan_tw" target="_blank" title="Twitter" style="display:inline-block;">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter" style="width:32px;height:32px;border-radius:8px;box-shadow:0 2px 8px #1b85ff33;">
+        </a>
+        <a href="https://www.instagram.com/jahidhasan2.0ff" target="_blank" title="Instagram" style="display:inline-block;">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="width:32px;height:32px;border-radius:8px;box-shadow:0 2px 8px #1b85ff33;">
+        </a>
+        <a href="https://t.me/jahidads12" target="_blank" title="Telegram" style="display:inline-block;">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" style="width:32px;height:32px;border-radius:8px;box-shadow:0 2px 8px #1b85ff33;">
+        </a>
+      </div>
+    </div>
+
+    <form class="contact-glass" style="max-width: 600px; margin: 0 auto; background: linear-gradient(135deg, #f8faff 80%, #e6f7ff 100%); padding: 36px 28px 30px 28px; border-radius: 20px; box-shadow: 0 12px 38px rgba(26,48,70,0.13), 0 2px 12px #1b85ff22; border: 2px solid #1b85ff22; position:relative; overflow:hidden;">
+      <!-- Animated gradient border -->
+      <div style="position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:20px;box-shadow:0 0 0 4px rgba(27,133,255,0.06);border:3px solid transparent;background:linear-gradient(90deg,#12eb0a,#1b85ff,#bd08eb,#ffb300,#12eb0a) border-box;background-clip:padding-box,border-box;background-origin:padding-box,border-box;opacity:0.18;filter:blur(2px);"></div>
+      <!-- Floating icon -->
+      <div style="position:absolute;top:-24px;right:-24px;z-index:1;opacity:0.14;">
+      <svg width="64" height="64" fill="none" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke="#1b85ff" stroke-width="2"/>
+        <path d="M2 21l21-9-21-9v7l15 2-15 2v7z" stroke="#bd08eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+        <input type="text" class="form-control mb-3" placeholder="Your Name" required
+        style="background:rgba(255,255,255,0.96);border:1.5px solid #e0e0e0;border-radius:12px;padding:16px;font-size:1.07rem;box-shadow:0 2px 8px #1b85ff11;transition:border-color 0.3s,box-shadow 0.3s;">
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control mb-3" placeholder="Your Email" required
+        style="background:rgba(255,255,255,0.96);border:1.5px solid #e0e0e0;border-radius:12px;padding:16px;font-size:1.07rem;box-shadow:0 2px 8px #1b85ff11;transition:border-color 0.3s,box-shadow 0.3s;">
+      </div>
+      </div>
+      <textarea class="form-control mb-3" rows="5" placeholder="Your Message" required
+      style="background:rgba(255,255,255,0.96);border:1.5px solid #e0e0e0;border-radius:12px;padding:16px;font-size:1.07rem;box-shadow:0 2px 8px #1b85ff11;transition:border-color 0.3s,box-shadow 0.3s;"></textarea>
       <div class="text-center">
-        <button class="btn btn-primary" style="background-color: #1a3046; border: none; padding: 12px 25px; font-size: 1rem; border-radius: 8px; transition: background-color 0.3s;">Send Message</button>
+      <button type="submit" class="btn contact-send-btn"
+        style="background:linear-gradient(90deg,#1b85ff,#12eb0a,#bd08eb,#ffb300,#1b85ff);background-size:200% 100%;color:#fff;font-weight:700;border-radius:12px;padding:14px 38px;font-size:1.13rem;box-shadow:0 4px 16px #1b85ff22,0 2px 8px #bd08eb22;letter-spacing:0.04em;transition:background 0.3s,transform 0.2s,box-shadow 0.3s;outline:none;position:relative;overflow:hidden;animation:contactBtnAnim 2s linear infinite;">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:8px;">
+        <path d="M2 21l21-9-21-9v7l15 2-15 2v7z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span style="background:linear-gradient(90deg,#f0f3f0,#000000,#eeedee,#000000,#e5ebe5);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;animation:contactBtnTextAnim 2s linear infinite;">Send Message</span>
+      </button>
+      <style>
+        @keyframes contactBtnAnim {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+        }
+        @keyframes contactBtnTextAnim {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+        }
+      </style>
+      <div class="contact-success" id="contactSuccessMsg"
+        style="margin-top:18px;font-size:1.12rem;font-weight:600;color:#12eb0a;animation:contactSuccessFade 1s cubic-bezier(0.23,1,0.32,1);background:linear-gradient(90deg,#12eb0a,#1b85ff,#bd08eb,#ffb300,#12eb0a);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;color:transparent;text-shadow:0 2px 8px #1b85ff22;">
+        Thank you! Your message has been sent.
+      </div>
+      </div>
+      <!-- Decorative bottom wave -->
+      <div style="position:absolute;bottom:-10px;left:0;width:100%;height:30px;z-index:0;pointer-events:none;opacity:0.13;">
+      <svg width="100%" height="30" viewBox="0 0 600 30" preserveAspectRatio="none">
+        <path d="M0,20 Q150,40 300,20 T600,20 V30 H0Z" fill="url(#contactWaveGrad)" />
+        <defs>
+        <linearGradient id="contactWaveGrad" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#12eb0a"/>
+          <stop offset="0.4" stop-color="#1b85ff"/>
+          <stop offset="0.7" stop-color="#bd08eb"/>
+          <stop offset="1" stop-color="#ffb300"/>
+        </linearGradient>
+        </defs>
+      </svg>
       </div>
     </form>
+
+    <!-- Business Hours -->
+    <div class="text-center mt-4">
+      <span style="font-weight:600;color:#1a3046;font-size:1.08rem;display:block;margin-bottom:8px;">Business Hours:</span>
+      <div style="color:#444;font-size:0.98rem;">
+        <span style="display:inline-block; background:linear-gradient(90deg,#12eb0a,#1b85ff,#bd08eb,#ffb300,#12eb0a); background-size:300% 100%; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; color:transparent; font-weight:600; font-size:1.08rem; letter-spacing:0.04em; animation: businessHoursColorMove 2s linear infinite; text-shadow:0 2px 8px #1b85ff22; border-radius:8px; padding:4px 0; transition:background 0.4s, color 0.4s;">
+          Saturday - Thursday: 9:00 AM - 7:00 PM
+        </span>
+        <br>
+        <span style="display:inline-block; background:linear-gradient(90deg,#bd08eb,#ffb300,#12eb0a,#1b85ff,#bd08eb); background-size:300% 100%; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; color:transparent; font-weight:600; font-size:1.08rem; letter-spacing:0.04em; animation: businessHoursColorMove2 2.5s linear infinite; text-shadow:0 2px 8px #af0606a9; border-radius:8px; padding:4px 0; transition:background 0.4s, color 0.4s;">
+          Friday: Closed
+        </span>
+        <style>
+        @keyframes businessHoursColorMove {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        @keyframes businessHoursColorMove2 {
+          0% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        </style>
+      </div>
+    </div>
+    <!-- Extra: FAQ Section -->
+  <div class="container my-5">
+  <h3 class="text-center fw-bold mb-4" style="color:#1a3046; font-size: 1.5rem;">
+    <span style="border-bottom: 2px solid #1b85ff; padding-bottom: 4px;">Frequently Asked Questions</span>
+  </h3>
+  
+  <div class="accordion" id="faqAccordion" style="max-width: 800px; margin: 0 auto;">
+
+    <!-- FAQ Item 1 -->
+    <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+      <h2 class="accordion-header" id="faq1">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+          aria-expanded="false" aria-controls="collapse1" style="background: #f5fcff;">
+          💬 <strong class="ms-2 text-primary">How soon will I get a response?</strong>
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          We aim to respond to all inquiries within 24 hours during business days.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 2 -->
+    <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+      <h2 class="accordion-header" id="faq2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
+          aria-expanded="false" aria-controls="collapse2" style="background: #fdf5ff;">
+          📍 <strong class="ms-2" style="color:#bd08eb;">Can I visit your office in person?</strong>
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Yes, please contact us to schedule an appointment before visiting.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 3 -->
+    <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+      <h2 class="accordion-header" id="faq3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
+          aria-expanded="false" aria-controls="collapse3" style="background: #fff9f0;">
+          💻 <strong class="ms-2" style="color:#ffb300;">Do you provide remote consultations?</strong>
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Absolutely! We offer both in-person and remote consultations via phone or video call.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 4 -->
+    <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+      <h2 class="accordion-header" id="faq4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+          aria-expanded="false" aria-controls="collapse4" style="background: #f5fff8;">
+          🔐 <strong class="ms-2" style="color:#22c55e;">Is my project information confidential?</strong>
+        </button>
+      </h2>
+      <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Yes, all shared information is strictly confidential. NDAs are available on request.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 5 -->
+    <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+      <h2 class="accordion-header" id="faq5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
+          aria-expanded="false" aria-controls="collapse5" style="background: #fff5f5;">
+          ⏳ <strong class="ms-2" style="color:#ff5252;">What is your typical project timeline?</strong>
+        </button>
+      </h2>
+      <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          It depends on the project size. A typical website takes 1–2 weeks from planning to final delivery.
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="alert alert-success d-none" id="contactSuccessMsg">
+          Your message has been sent successfully!
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Simple form success animation (no backend)
+    document.addEventListener('DOMContentLoaded', function() {
+      var form = document.querySelector('#contact form');
+      var successMsg = document.getElementById('contactSuccessMsg');
+      if(form && successMsg) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          successMsg.style.display = 'block';
+          setTimeout(function() {
+            successMsg.style.display = 'none';
+            form.reset();
+          }, 2200);
+        });
+      }
+    });
+  </script>
 </section>
 
 <!-- Map Section -->
-<section id="map" class="py-5" style="background-color: #f8f9fa;">
-  <div class="container">
-    <h2 class="text-center section-title" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">Our Location</h2>
-    <div class="row mt-4">
-      <div class="col-md-12">
-        <iframe src="https://maps.google.com/maps?q=jahidads&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-          width="100%" height="300" frameborder="0" style="border: 0; border-radius: 15px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);" allowfullscreen>
-        </iframe>
+<section id="map" class="py-5" style="background-color: #ffffff; position: relative; overflow: hidden;">
+  <div class="container position-relative">
+    <!-- Glassmorphism animated background shapes for map section -->
+    <div class="map-bg-anim"></div>
+    <div class="map-bg-anim2"></div>
+    <h2 class="text-center section-title animated-underline" style="font-size: 2.5rem; color: #1a3046; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px; position: relative; display: block; text-align: center;">
+      <span class="map-animate">Our Location</span>
+      <style>
+      .map-animate {
+        background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+        background-size: 300% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: mapColorMove 2s linear infinite;
+        filter: drop-shadow(0 2px 16px rgba(255, 179, 0, 0.18));
+        text-shadow: 0 2px 12px #1b85ff44, 0 1px 4px #bd08eb33;
+        letter-spacing: 0.08em;
+      }
+      @keyframes mapColorMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animated-underline {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
+      .animated-underline::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -8px;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+        background-size: 300% 100%;
+        border-radius: 3px;
+        animation: mapUnderlineMove 2s linear infinite;
+        box-shadow: 0 2px 16px rgba(255, 179, 0, 0.18);
+      }
+      @keyframes mapUnderlineMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      /* Glassmorphism animated background */
+      .map-bg-anim {
+        position: absolute;
+        top: -60px;
+        left: -80px;
+        width: 260px;
+        height: 260px;
+        background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: mapFloat1 8s ease-in-out infinite alternate;
+      }
+      .map-bg-anim2 {
+        position: absolute;
+        bottom: -80px;
+        right: -60px;
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+        filter: blur(60px);
+        z-index: 0;
+        animation: mapFloat2 10s ease-in-out infinite alternate;
+      }
+      @keyframes mapFloat1 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(40px) scale(1.08);}
+      }
+      @keyframes mapFloat2 {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(-30px) scale(1.04);}
+      }
+      /* Map card glass effect */
+      .map-glass {
+        background: rgba(255,255,255,0.90);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 22px;
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.13);
+        border: 2.5px solid rgba(26,48,70,0.12);
+        transition: box-shadow 0.3s, border 0.3s, background 0.3s;
+        position: relative;
+        z-index: 1;
+        padding: 28px 22px 22px 22px;
+        margin-bottom: 16px;
+        overflow: hidden;
+        border-image: linear-gradient(135deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a) 1;
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.13), 0 2px 20px 0 rgba(18,235,10,0.08);
+      }
+      .map-glass:hover {
+        box-shadow: 0 20px 48px 0 rgba(31, 38, 135, 0.23), 0 4px 24px #12eb0a33;
+        border: 2.5px solid #1b85ff;
+        background: rgba(255,255,255,0.97);
+        filter: drop-shadow(0 0 24px #bd08eb33);
+      }
+      /* Animated marker icon */
+      .map-marker-anim {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 18px;
+        animation: markerBounce 1.2s infinite alternate;
+        filter: drop-shadow(0 2px 12px #12eb0a55);
+      }
+      @keyframes markerBounce {
+        0% { transform: translateY(0);}
+        100% { transform: translateY(-8px);}
+      }
+      #map {
+        border-top: 5px solid;
+        border-image: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a) 1;
+        box-shadow: 0 4px 32px 0 rgba(31, 38, 135, 0.08);
+        border-bottom: 4px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, #bd08eb, #ffb300, #12eb0a, #1b85ff, #bd08eb);
+        animation: mapBorderGlow 3s linear infinite;
+      }
+      @keyframes mapBorderGlow {
+        0% { border-image-source: linear-gradient(90deg, #bd08eb, #ffb300, #12eb0a, #1b85ff, #bd08eb);}
+        50% { border-image-source: linear-gradient(90deg, #1b85ff, #12eb0a, #ffb300, #bd08eb, #1b85ff);}
+        100% { border-image-source: linear-gradient(90deg, #bd08eb, #ffb300, #12eb0a, #1b85ff, #bd08eb);}
+      }
+      .map-glass iframe {
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.13), 0 2px 8px #1b85ff22;
+        border: 2px solid #fff;
+        transition: box-shadow 0.4s, border 0.4s, filter 0.4s;
+        filter: grayscale(8%) brightness(0.97) drop-shadow(0 2px 12px #bd08eb22);
+        border-image: linear-gradient(135deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a) 1;
+      }
+      .map-glass iframe:hover {
+        box-shadow: 0 16px 48px 0 rgba(31, 38, 135, 0.22), 0 4px 16px #bd08eb33;
+        border: 2px solid #1b85ff;
+        filter: grayscale(0%) brightness(1.02) drop-shadow(0 4px 16px #1b85ff33);
+      }
+      .map-location-text {
+        font-size: 1.15rem;
+        color: #1a3046;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        margin-top: 18px;
+        background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+        background-size: 300% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: mapColorMove 2s linear infinite;
+        text-shadow: 0 2px 8px #1b85ff22;
+        border-radius: 8px;
+        padding: 4px 0;
+        transition: background 0.4s, color 0.4s;
+        position: relative;
+      }
+      .map-location-text::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -4px;
+        width: 80%;
+        height: 3px;
+        background: linear-gradient(90deg, #bd08eb, #ffb300, #12eb0a, #1b85ff, #bd08eb);
+        background-size: 200% 100%;
+        border-radius: 2px;
+        animation: mapUnderlineText 2.5s linear infinite;
+      }
+      @keyframes mapUnderlineText {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .map-svg-top {
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        z-index: 0;
+        opacity: 0.13;
+        transform: rotate(12deg);
+        animation: svgTopAnim 5s ease-in-out infinite alternate;
+      }
+      @keyframes svgTopAnim {
+        0% { transform: rotate(12deg) scale(1);}
+        100% { transform: rotate(18deg) scale(1.08);}
+      }
+      .map-svg-bottom {
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+        z-index: 0;
+        opacity: 0.10;
+        transform: rotate(-8deg);
+        animation: svgBottomAnim 6s ease-in-out infinite alternate;
+      }
+      @keyframes svgBottomAnim {
+        0% { transform: rotate(-8deg) scale(1);}
+        100% { transform: rotate(-12deg) scale(1.05);}
+      }
+      /* New: animated floating pin icons */
+      .floating-pin {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.18;
+        animation: floatingPinAnim 7s ease-in-out infinite alternate;
+      }
+      .floating-pin.pin1 { top: 60px; left: 10%; animation-delay: 0s;}
+      .floating-pin.pin2 { top: 180px; right: 12%; animation-delay: 2s;}
+      .floating-pin.pin3 { bottom: 60px; left: 18%; animation-delay: 1s;}
+      @keyframes floatingPinAnim {
+        0% { transform: translateY(0) scale(1);}
+        100% { transform: translateY(-18px) scale(1.08);}
+      }
+      /* New: animated ripple effect for map */
+      .map-ripple {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        pointer-events: none;
+      }
+      .map-ripple span {
+        position: absolute;
+        border-radius: 50%;
+        border: 2.5px solid #1b85ff;
+        opacity: 0.18;
+        animation: rippleAnim 2.5s linear infinite;
+      }
+      .map-ripple span:nth-child(2) {
+        border-color: #12eb0a;
+        animation-delay: 1.2s;
+      }
+      @keyframes rippleAnim {
+        0% { width: 0; height: 0; opacity: 0.18;}
+        70% { opacity: 0.12;}
+        100% { width: 120px; height: 120px; opacity: 0;}
+      }
+      /* Responsive tweaks */
+      @media (max-width: 991.98px) {
+        .map-glass { padding: 14px 6px 10px 6px; }
+        .map-bg-anim, .map-bg-anim2 { display: none; }
+        .floating-pin { display: none; }
+        .map-ripple { display: none; }
+      }
+      @media (max-width: 767.98px) {
+        .animated-underline::after { height: 3px; }
+        .map-animate { font-size: 1.5rem !important; }
+        .map-glass { padding: 8px 2px 6px 2px; }
+        .map-svg-top, .map-svg-bottom { display: none; }
+      }
+      @media (max-width: 575.98px) {
+        .section-title { font-size: 1.2rem !important; }
+        .map-glass { padding: 4px 0 2px 0 !important; }
+        .map-location-text { font-size: 1rem; }
+      }
+      </style>
+      <!-- Decorative SVGs -->
+      <svg class="map-svg-top" width="90" height="90" viewBox="0 0 90 90" fill="none">
+        <circle cx="45" cy="45" r="45" fill="url(#mapGrad1)"/>
+        <defs>
+          <linearGradient id="mapGrad1" x1="0" y1="0" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#12eb0a"/>
+            <stop offset="1" stop-color="#1b85ff"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <svg class="map-svg-bottom" width="70" height="70" viewBox="0 0 70 70" fill="none">
+        <rect width="70" height="70" rx="22" fill="url(#mapGrad2)"/>
+        <defs>
+          <linearGradient id="mapGrad2" x1="0" y1="0" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#bd08eb"/>
+            <stop offset="1" stop-color="#ffb300"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <!-- Floating animated map pins -->
+      <svg class="floating-pin pin1" width="32" height="32" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="10" r="5" stroke="#1b85ff" stroke-width="2"/>
+        <path d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" stroke="#12eb0a" stroke-width="2" fill="url(#pinGrad1)"/>
+        <defs>
+          <linearGradient id="pinGrad1" x1="4" y1="9" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#12eb0a"/>
+            <stop offset="1" stop-color="#1b85ff"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <svg class="floating-pin pin2" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="10" r="3.5" stroke="#bd08eb" stroke-width="2"/>
+        <path d="M12 22s8-7.5 8-13A8 8 0 0 0 4 9c0 5.5 8 13 8 13z" stroke="#ffb300" stroke-width="2" fill="url(#pinGrad2)"/>
+        <defs>
+          <linearGradient id="pinGrad2" x1="4" y1="9" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#bd08eb"/>
+            <stop offset="1" stop-color="#ffb300"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <svg class="floating-pin pin3" width="28" height="28" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="10" r="3.5" stroke="#ffb300" stroke-width="2"/>
+        <path d="M12 22s8-7.5 8-13A8 8 0 0 0 4 9c0 5.5 8 13 8 13z" stroke="#1b85ff" stroke-width="2" fill="url(#pinGrad3)"/>
+        <defs>
+          <linearGradient id="pinGrad3" x1="4" y1="9" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#ffb300"/>
+            <stop offset="1" stop-color="#1b85ff"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <!-- Animated ripple effect -->
+      <div class="map-ripple">
+        <span></span>
+        <span></span>
+      </div>
+    </h2>
+    <div class="row mt-4 justify-content-center" style="z-index:1; position:relative;">
+      <div class="col-md-10">
+        <div class="map-glass">
+          <div class="map-marker-anim">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="10" r="3.5" stroke="#1b85ff" stroke-width="2"/>
+              <path d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" stroke="#12eb0a" stroke-width="2" fill="url(#markerGrad)"/>
+              <defs>
+                <linearGradient id="markerGrad" x1="4" y1="9" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#12eb0a"/>
+                  <stop offset="1" stop-color="#1b85ff"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <iframe src="https://maps.google.com/maps?q=jahidads&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            width="100%" height="300" frameborder="0" style="border: 0; border-radius: 18px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);" allowfullscreen>
+          </iframe>
+          <div class="text-center mt-3 map-location-text">
+            Find us on Google Maps
+          </div>
+          <!-- More style: animated pin shadow and glow -->
+          <div style="position:absolute;top:18px;left:18px;pointer-events:none;z-index:2;">
+            <svg width="38" height="38" viewBox="0 0 38 38">
+              <ellipse cx="19" cy="34" rx="10" ry="3" fill="url(#pinShadow)" opacity="0.28">
+                <animate attributeName="rx" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.28;0.38;0.28" dur="2s" repeatCount="indefinite"/>
+              </ellipse>
+              <defs>
+                <radialGradient id="pinShadow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#12eb0a"/>
+                  <stop offset="100%" stop-color="#bd08eb"/>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <!-- New: address and contact info card below map -->
+          <div class="row mt-4 justify-content-center">
+            <div class="col-md-8">
+              <div style="background:rgba(245,252,255,0.92);border-radius:14px;box-shadow:0 2px 12px #1b85ff22;padding:18px 12px;margin-bottom:8px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#12eb0a,#bd08eb);margin-right:8px;box-shadow:0 2px 8px #bd08eb22;">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z" stroke="#fff" stroke-width="2"/></svg>
+                </span>
+                <div style="flex:1;">
+                  <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Address</div>
+                  <div style="color:#444;font-size:0.98rem;">JahidAds, Ekorgara Road, Bottoli 5900</div>
+                </div>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#1b85ff,#ffb300);margin-right:8px;box-shadow:0 2px 8px #1b85ff22;">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M22 16.92V21a1 1 0 0 1-1.09 1A19.72 19.72 0 0 1 3 5.09 1 1 0 0 1 4 4h4.09a1 1 0 0 1 1 .75l1.09 4.36a1 1 0 0 1-.29 1L8.21 12.79a16 16 0 0 0 7 7l2.68-2.68a1 1 0 0 1 1-.29l4.36 1.09a1 1 0 0 1 .75 1V21z" stroke="#fff" stroke-width="2"/></svg>
+                </span>
+                <div style="flex:1;">
+                  <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Phone</div>
+                  <div style="color:#444;font-size:0.98rem;">+880 1308-839759</div>
+                </div>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#bd08eb,#12eb0a);margin-right:8px;box-shadow:0 2px 8px #bd08eb22;">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" stroke="#fff" stroke-width="2"/></svg>
+                </span>
+                <div style="flex:1;">
+                  <div style="font-weight:600;color:#1a3046;font-size:1.08rem;">Email</div>
+                  <div style="color:#444;font-size:0.98rem;">jahidhasan2.0ff@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- New: quick action buttons -->
+          <div class="text-center mt-3">
+            <a href="https://jahidads.github.io/my-portfolio/" target="_blank" class="btn" style="background:linear-gradient(90deg,#195ba7,#199615);color:#581919;font-weight:600;border-radius:8px;padding:10px 28px;margin:0 8px;box-shadow:0 2px 8px #1b85ff22;transition:background 0.3s,transform 0.2s;">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;"><path d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" stroke="#fff" stroke-width="2"/></svg>
+              <span style="
+                display: inline-block;
+                background: linear-gradient(90deg, #1b85ff, #12eb0a, #bd08eb, #ffb300, #1b85ff);
+                background-size: 300% 100%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                color: transparent;
+                font-weight: 700;
+                font-size: 1.08rem;
+                letter-spacing: 0.04em;
+                animation: visitWebsiteBtnColorMove 2s linear infinite;
+                text-shadow: 0 2px 8px #1b85ff22;
+                border-radius: 8px;
+                padding: 4px 0;
+                transition: background 0.4s, color 0.4s;
+                position: relative;
+                ">
+                Visit Website
+              </span>
+              <style>
+              @keyframes visitWebsiteBtnColorMove {
+                0% { background-position: 0% 50%; }
+                100% { background-position: 100% 50%; }
+              }
+              </style>
+            </a>
+            <a href="tel:+8801308839759" class="btn" style="background:linear-gradient(90deg,#866822,#8511a1);color:#8a6464;font-weight:600;border-radius:8px;padding:10px 28px;margin:0 8px;box-shadow:0 2px 8px #bd08eb22;transition:background 0.3s,transform 0.2s;">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;"><path d="M22 16.92V21a1 1 0 0 1-1.09 1A19.72 19.72 0 0 1 3 5.09 1 1 0 0 1 4 4h4.09a1 1 0 0 1 1 .75l1.09 4.36a1 1 0 0 1-.29 1L8.21 12.79a16 16 0 0 0 7 7l2.68-2.68a1 1 0 0 1 1-.29l4.36 1.09a1 1 0 0 1 .75 1V21z" stroke="#fff" stroke-width="2"/></svg>
+                <span style="
+                display: inline-block;
+                background: linear-gradient(90deg, #ffb300, #bd08eb, #12eb0a, #1b85ff, #ffb300);
+                background-size: 300% 100%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                color: transparent;
+                font-weight: 700;
+                font-size: 1.08rem;
+                letter-spacing: 0.04em;
+                animation: callNowBtnColorMove 2s linear infinite;
+                text-shadow: 0 2px 8px #bd08eb22;
+                border-radius: 8px;
+                padding: 4px 0;
+                transition: background 0.4s, color 0.4s;
+                position: relative;
+                ">
+                Call Now
+                </span>
+                <style>
+                @keyframes callNowBtnColorMove {
+                  0% { background-position: 0% 50%; }
+                  100% { background-position: 100% 50%; }
+                }
+                </style>
+            </a>
+            <a href="mailto:jahidhasan2.0ff@gmail.com" class="btn" style="background:linear-gradient(90deg,#a7d8a5,#8f9e2b);color:#755858;font-weight:600;border-radius:8px;padding:10px 28px;margin:0 8px;box-shadow:0 2px 8px #0b750722;transition:background 0.3s,transform 0.2s;">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;"><path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" stroke="#fff" stroke-width="2"/></svg>
+                <span style="
+                  display: inline-block;
+                  background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+                  background-size: 300% 100%;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+                  color: transparent;
+                  font-weight: 700;
+                  font-size: 1.08rem;
+                  letter-spacing: 0.04em;
+                  animation: emailBtnColorMove 2s linear infinite;
+                  text-shadow: 0 2px 8px #1b85ff22;
+                  border-radius: 8px;
+                  padding: 4px 0;
+                  transition: background 0.4s, color 0.4s;
+                  position: relative;
+                ">
+                  Email Us
+                </span>
+                <style>
+                @keyframes emailBtnColorMove {
+                  0% { background-position: 0% 50%; }
+                  100% { background-position: 100% 50%; }
+                }
+                </style>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
+</section></a>
 
 <!-- Footer -->
-<section id="footer" style="background-color: #1a3046; color: white; padding: 20px 0;">
+<section id="footer" style="background-color: #1a3046; color: white; padding: 32px 0 18px 0; position: relative; overflow: hidden;">
+  <style>
+    #footer {
+      background: linear-gradient(90deg, #1a3046 60%, #1b85ff 100%);
+      color: #fff;
+      box-shadow: 0 -4px 32px 0 rgba(31, 38, 135, 0.12);
+      border-top: 4px solid;
+      border-image: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a) 1;
+      position: relative;
+      z-index: 2;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      letter-spacing: 0.03em;
+    }
+    #footer .footer-glow {
+      text-shadow: 0 2px 12px #1b85ff55, 0 1px 4px #bd08eb33;
+      font-weight: bold;
+      letter-spacing: 0.04em;
+      font-size: 1.05rem;
+      background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+      background-size: 300% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      animation: footerColorMove 2.5s linear infinite;
+      margin-bottom: 10px;
+      display: inline-block;
+      border-bottom: 2px solid #1b85ff44;
+      padding-bottom: 4px;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px #1b85ff22;
+      transition: background 0.3s, color 0.3s;
+    }
+    @keyframes footerColorMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+    #footer .footer-socials {
+      margin: 12px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      padding-bottom: 8px;
+    }
+    #footer .social-icon {
+      display: inline-block;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.08);
+      box-shadow: 0 2px 8px #1b85ff22;
+      transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+      padding: 4px;
+      position: relative;
+    }
+    #footer .social-icon img {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #1b85ff33;
+      background: #fff;
+      padding: 2px;
+      transition: 
+        transform 0.3s cubic-bezier(.22,1,.36,1),
+        box-shadow 0.3s cubic-bezier(.22,1,.36,1),
+        filter 0.3s cubic-bezier(.22,1,.36,1);
+      filter: grayscale(10%) brightness(0.98);
+    }
+    #footer .social-icon:hover {
+      background: linear-gradient(135deg, #12eb0a33 0%, #bd08eb33 100%);
+      box-shadow: 0 8px 24px #bd08eb33, 0 2px 8px #1b85ff22;
+      transform: scale(1.07) rotate(-2deg);
+    }
+    #footer .social-icon:hover img {
+      transform: scale(1.22) rotate(-6deg);
+      box-shadow: 0 8px 24px #bd08eb33, 0 2px 8px #1b85ff22;
+      filter: grayscale(0%) brightness(1.12);
+      background: linear-gradient(135deg, #12eb0a 0%, #bd08eb 100%);
+    }
+    #footer .footer-anim-bg {
+      position: absolute;
+      top: -60px;
+      left: -80px;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, #12eb0a33 0%, #1b85ff11 80%);
+      filter: blur(60px);
+      z-index: 0;
+      animation: footerFloat1 8s ease-in-out infinite alternate;
+    }
+    #footer .footer-anim-bg2 {
+      position: absolute;
+      bottom: -80px;
+      right: -60px;
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, #bd08eb33 0%, #ffb30011 80%);
+      filter: blur(60px);
+      z-index: 0;
+      animation: footerFloat2 10s ease-in-out infinite alternate;
+    }
+    @keyframes footerFloat1 {
+      0% { transform: translateY(0) scale(1);}
+      100% { transform: translateY(40px) scale(1.08);}
+    }
+    @keyframes footerFloat2 {
+      0% { transform: translateY(0) scale(1);}
+      100% { transform: translateY(-30px) scale(1.04);}
+    }
+    /* Extra: animated border glow */
+    #footer::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0; top: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+      background-size: 300% 100%;
+      animation: footerBorderGlow 3s linear infinite;
+      border-radius: 0 0 8px 8px;
+      z-index: 3;
+      opacity: 0.6;
+    }
+    @keyframes footerBorderGlow {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+    /* Extra: fade-in animation */
+    #footer .container {
+      opacity: 0;
+      transform: translateY(40px) scale(0.98);
+      animation: footerFadeIn 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards;
+    }
+    @keyframes footerFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+    /* Extra: hover underline for social icons */
+    #footer .social-icon::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      width: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #12eb0a, #1b85ff, #bd08eb, #ffb300, #12eb0a);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+    #footer .social-icon:hover::after {
+      width: 80%;
+    }
+    /* Responsive styles */
+    @media (max-width: 767.98px) {
+      #footer { padding: 18px 0 10px 0; }
+      #footer .footer-socials { gap: 10px; }
+      #footer .social-icon img { width: 22px; height: 22px; }
+      #footer .footer-glow { font-size: 0.95rem; }
+      #footer .footer-anim-bg, #footer .footer-anim-bg2 { display: none; }
+      #footer .footer-glow { padding-bottom: 2px; }
+    }
+    @media (max-width: 575.98px) {
+      #footer .footer-glow { font-size: 0.85rem; }
+      #footer .social-icon img { width: 18px; height: 18px; }
+      #footer { font-size: 0.98rem; }
+      #footer .footer-socials { gap: 6px; }
+    }
+  </style>
+  <div class="footer-anim-bg"></div>
+  <div class="footer-anim-bg2"></div>
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <p style="margin: 0; font-size: 0.9rem;">&copy; 2025 jahidads Web Devloper</p>
-        <p style="margin: 10px 0; font-size: 0.9rem;">Follow us on:
-          <a href="https://www.facebook.com/jahidads1" target="_blank" class="me-2 social-icon">
-            <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" style="width: 20px; height: 20px; transition: transform 0.3s;">
+        <p class="footer-glow" style="margin: 0;">&copy; 2025 jahidads Web Developer</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/jahidads1" target="_blank" class="social-icon" title="Facebook">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
           </a>
-          <a href="https://twitter.com/jahidhasan_tw" target="_blank" class="me-2 social-icon">
-            <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter" style="width: 20px; height: 20px; transition: transform 0.3s;">
+          <a href="https://twitter.com/jahidhasan_tw" target="_blank" class="social-icon" title="Twitter">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter">
           </a>
-          <a href="https://www.instagram.com/jahidhasan2.0ff" target="_blank" class="me-2 social-icon">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="width: 20px; height: 20px; transition: transform 0.3s;">
+          <a href="https://www.instagram.com/jahidhasan2.0ff" target="_blank" class="social-icon" title="Instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
           </a>
-        </p>
+        </div>
       </div>
     </div>
   </div>
